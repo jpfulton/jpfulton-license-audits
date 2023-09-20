@@ -1,4 +1,7 @@
 {
   "name": "jpfulton-license-audits",
-  "packageManager": "yarn@3.6.3"
+  "packageManager": "yarn@3.6.3",
+  "dependencies": {
+    "@brainhubeu/license-auditor": "^1.2.0"
+  }
 }
