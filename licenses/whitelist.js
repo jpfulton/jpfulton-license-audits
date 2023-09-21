@@ -3,4 +3,4 @@ const whitelist = [
 
 ];
 
-module.exports = whitelist;
+export default whitelist;

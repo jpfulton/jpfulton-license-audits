@@ -33,6 +33,9 @@ jobs:
       - name: "Update Yarn Version"
         run: corepack enable && yarn set version stable
 
+      - name: "Install Primary Project Dependencies"
+        run: yarn install
+
       - name: "Create Working Directory"
         run: |
           mkdir -p working/${{ inputs.repo_name }}
@@ -44,7 +47,7 @@ jobs:
           repository: ${{ inputs.repo }}
           token: ${{ secrets.personal_access_token }}
 
-      - name: "Install Dependencies"
+      - name: "Install Dependencies for Sub-Project: ${{ inputs.repo_name }}"
         working-directory: working/${{ inputs.repo_name }}
         run: yarn install
 

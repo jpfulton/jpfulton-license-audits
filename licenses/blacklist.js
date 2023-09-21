@@ -3,4 +3,4 @@ const blacklist = [
   'UNKNOWN',
 ];
 
-module.exports = blacklist;
+export default blacklist;

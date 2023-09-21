@@ -1,5 +1,6 @@
 {
   "name": "jpfulton-license-audits",
+  "type": "module",
   "packageManager": "yarn@3.6.3",
   "devDependencies": {
     "@brainhubeu/license-auditor": "^1.2.0",
