@@ -41,11 +41,12 @@ jobs:
         with:
           node-version: 18.x
 
+      - name: "Install Node Auditor CLI"
+        run: |
+          yarn global add @jpfulton/node-license-auditor-cli
+
       - name: "Update Yarn Version"
         run: corepack enable && yarn set version stable
-
-      - name: "Install Primary Project Dependencies"
-        run: yarn install
 
       - name: "Create Working and Reports Directories"
         run: |
@@ -64,10 +65,8 @@ jobs:
         run: yarn install
 
       - name: "Run Dependency Audit Report on Target Project"
-        env:
-          PROJECT_PATH: ./working/${{ inputs.repo_name }}
         run: |
-          node ./node_auditor/logger.js > reports/node_projects/${{ inputs.repo_name }}.md
+          node-license-auditor-cli markdown ./working/${{ inputs.repo_name }} > reports/node_projects/${{ inputs.repo_name }}.md
 
       - name: "Commit Report"
         continue-on-error: true
