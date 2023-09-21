@@ -20,6 +20,7 @@ on:
 
 jobs:
   audit:
+    name: "Audit Repo: ${{ inputs.repo_name }}"
     runs-on: ubuntu-latest
     permissions:
       contents: write
