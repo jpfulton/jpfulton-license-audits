@@ -13,6 +13,9 @@ jobs:
     outputs:
       node-repositories: ${{ fromJson(steps.node-repos-configuration.outputs.node-repositories-json) }}
     steps:
+      - name: "Checkout GitHub Action"
+        uses: actions/checkout@v4
+
       - name: "Load Node Repository Configuration"
         id: node-repos-configuration
         run: |
