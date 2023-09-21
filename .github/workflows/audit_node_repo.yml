@@ -1,0 +1,55 @@
+name: "Audit Node Repo"
+
+on:
+  workflow_call:
+    inputs:
+      path:
+        type: string
+        required: true
+      repo:
+        type: string
+        required: true
+      repo_name:
+        type: string
+        required: true
+    secrets:
+      token:
+        required: true
+      personal_access_token:
+        required: true
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:  
+      - name: "Checkout GitHub Action"
+        uses: actions/checkout@v4
+
+      - name: Set up node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18.x
+
+      - name: "Update Yarn Version"
+        run: corepack enable && yarn set version stable
+
+      - name: "Create Working Directory"
+        run: |
+          mkdir -p working
+
+      - name: "Check out repo to working directory"
+        uses: actions/checkout@v4
+        with:
+          path: working
+          repository: ${{ inputs.repo }}
+          token: ${{ secrets.personal_access_token }}
+
+      - name: "Install Dependencies"
+        working-directory: working/${{ inputs.repo_name }}
+        run: yarn install
+
+      
+          
+
+      
+      
