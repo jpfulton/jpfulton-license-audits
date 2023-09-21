@@ -3,6 +3,9 @@ name: Audit Project Licenses
 on:
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   audit-node-project-licenses:
     uses: ./.github/workflows/audit_node_repo.yml

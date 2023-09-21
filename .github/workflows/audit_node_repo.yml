@@ -21,6 +21,8 @@ on:
 jobs:
   audit:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:  
       - name: "Checkout GitHub Action"
         uses: actions/checkout@v4
@@ -61,11 +63,11 @@ jobs:
         working-directory: working/${{ inputs.repo_name }}
         run: yarn install
 
-      - name: "Run Dependency Audit on Target Project"
+      - name: "Run Dependency Audit Report on Target Project"
         env:
           PROJECT_PATH: ./working/${{ inputs.repo_name }}
         run: |
-          node ./node_auditor/logger.js > reports/node_projects/${{ inputs.repo_name }}
+          node ./node_auditor/logger.js > reports/node_projects/${{ inputs.repo_name }}.md
 
       - name: "Commit Report"
         continue-on-error: true
