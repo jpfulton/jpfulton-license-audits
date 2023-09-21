@@ -16,7 +16,7 @@ jobs:
       - name: "Load Node Repository Configuration"
         id: node-repos-configuration
         run: |
-          JSON=$(cat ./.github/configuration/node-repositories.json);
+          JSON="$(cat ./.github/configuration/node-repositories.json)";
           JSON=${JSON//$'\n'/};
           echo "node-repositories-json=$JSON" >> $GITHUB_OUTPUT;
 
