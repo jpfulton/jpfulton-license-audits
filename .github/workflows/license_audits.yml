@@ -24,6 +24,7 @@ jobs:
           echo "node-repositories-json=$JSON" >> $GITHUB_OUTPUT;
 
   audit-node-project-licenses:
+    name: "Audit: ${{ matrix.repository.repo_name }}"
     needs: load-configuration
     strategy:
       fail-fast: false
