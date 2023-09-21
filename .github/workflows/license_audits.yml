@@ -11,7 +11,7 @@ jobs:
     name: "Load JSON Configuration"
     runs-on: ubuntu-latest
     outputs:
-      node-repositories: ${{ fromJson(steps.node-repos-configuration.outputs.node-repositories-json) }}
+      node-repositories: ${{ steps.node-repos-configuration.outputs.node-repositories-json }}
     steps:
       - name: "Checkout GitHub Action"
         uses: actions/checkout@v4
@@ -27,7 +27,7 @@ jobs:
     needs: load-configuration
     strategy:
       fail-fast: false
-      matrix: ${{ needs.load-configuration.outputs.node-repositories }}
+      matrix: ${{ fromJson(needs.load-configuration.outputs.node-repositories) }}
     uses: ./.github/workflows/audit_node_repo.yml
     with:
       path: ${{ matrix.path }}
