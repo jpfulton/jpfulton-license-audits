@@ -1,10 +1,9 @@
 # Package Dependencies Audit Report: @jpfulton/net-sms-notifier-cli
 
-> Generated at Thu, 21 Sep 2023 17:28:18 GMT
+> Generated at Thu, 21 Sep 2023 20:08:30 GMT
 
 |  | NAME | VERSION | LICENSE | MODULE PATH | LICENSE PATH | REPOSITORY | PUBLISHER | EMAIL |
 |---|---|---|---|---|---|---|---|---|
-
 | :yellow_circle: | @humanwhocodes/config-array | 0.11.10 | Apache-2.0 | ./working/net-sms-notifier-cli/node_modules/@humanwhocodes/config-array/package.json | ./working/net-sms-notifier-cli/node_modules/@humanwhocodes/config-array/package.json | git+https://github.com/humanwhocodes/config-array.git | Nicholas C. Zakas |  |
 | :yellow_circle: | @humanwhocodes/module-importer | 1.0.1 | Apache-2.0 | ./working/net-sms-notifier-cli/node_modules/@humanwhocodes/module-importer/package.json | ./working/net-sms-notifier-cli/node_modules/@humanwhocodes/module-importer/package.json | git+https://github.com/humanwhocodes/module-importer.git | Nicholas C. Zaks |  |
 | :yellow_circle: | @humanwhocodes/object-schema | 1.2.1 | BSD-3-Clause | ./working/net-sms-notifier-cli/node_modules/@humanwhocodes/object-schema/package.json | ./working/net-sms-notifier-cli/node_modules/@humanwhocodes/object-schema/package.json | git+https://github.com/humanwhocodes/object-schema.git | Nicholas C. Zakas |  |
@@ -43,3 +42,4 @@
 | :yellow_circle: | which | 2.0.2 | ISC | ./working/net-sms-notifier-cli/node_modules/which/package.json | ./working/net-sms-notifier-cli/node_modules/which/package.json | git://github.com/isaacs/node-which.git | Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me) |  |
 | :yellow_circle: | wrappy | 1.0.2 | ISC | ./working/net-sms-notifier-cli/node_modules/wrappy/package.json | ./working/net-sms-notifier-cli/node_modules/wrappy/package.json | https://github.com/npm/wrappy | Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/) |  |
 | :yellow_circle: | yallist | 4.0.0 | ISC | ./working/net-sms-notifier-cli/node_modules/yallist/package.json | ./working/net-sms-notifier-cli/node_modules/yallist/package.json | git+https://github.com/isaacs/yallist.git | Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/) |  |
+
