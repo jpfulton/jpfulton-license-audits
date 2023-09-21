@@ -42,7 +42,7 @@ licenseAuditor({
     fail,
   },
   consoleManager: {
-    warnMarkdown,
-    errorMarkdown,
+    createWarnMarkdown: warnMarkdown,
+    createErrorMarkdown: errorMarkdown,
   }
 });
