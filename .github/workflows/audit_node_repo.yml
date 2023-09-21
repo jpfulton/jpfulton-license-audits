@@ -25,6 +25,15 @@ jobs:
       - name: "Checkout GitHub Action"
         uses: actions/checkout@v4
 
+      - name: "Configure Git"
+        run: |
+          git config user.name jpfulton
+          git config user.email jpatrick.fulton@gmail.com
+
+      - name: "Git Pull"
+        run: |
+          git pull
+
       - name: Set up node
         uses: actions/setup-node@v3
         with:
@@ -36,9 +45,10 @@ jobs:
       - name: "Install Primary Project Dependencies"
         run: yarn install
 
-      - name: "Create Working Directory"
+      - name: "Create Working and Reports Directories"
         run: |
           mkdir -p working/${{ inputs.repo_name }}
+          mkdir -p reports/node_projects/
 
       - name: "Check out repo to working directory"
         uses: actions/checkout@v4
@@ -47,9 +57,24 @@ jobs:
           repository: ${{ inputs.repo }}
           token: ${{ secrets.personal_access_token }}
 
-      - name: "Install Dependencies for Sub-Project: ${{ inputs.repo_name }}"
+      - name: "Install Dependencies for Target Project: ${{ inputs.repo_name }}"
         working-directory: working/${{ inputs.repo_name }}
         run: yarn install
+
+      - name: "Run Dependency Audit on Target Project"
+        env:
+          PROJECT_PATH: ./working/${{ inputs.repo_name }}
+        run: |
+          node ./node_auditor/logger.js > reports/node_projects/${{ inputs.repo_name }}
+
+      - name: "Commit Report"
+        continue-on-error: true
+        run: |
+          git pull
+          git add -A .
+          git commit -m "Generated reports [skip ci]"
+          git push
+
 
       
           
