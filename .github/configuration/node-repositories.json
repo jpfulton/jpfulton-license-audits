@@ -1,7 +1,37 @@
 [
   {
+    "repo": "jpfulton/blog",
+    "repo_name": "blog",
+    "path": ""
+  },
+  {
+    "repo": "jpfulton/gatsby-plugin-feed-mdx",
+    "repo_name": "gatsby-plugin-feed-mdx",
+    "path": ""
+  },
+  {
+    "repo": "jpfulton/gatsby-remark-copy-button",
+    "repo_name": "gatsby-remark-copy-button",
+    "path": ""
+  },
+  {
     "repo": "jpfulton/net-sms-notifier-cli",
     "repo_name": "net-sms-notifier-cli",
+    "path": ""
+  },
+  {
+    "repo": "jpfulton/ng-resume",
+    "repo_name": "ng-resume",
+    "path": "ng-resume-app"
+  },
+  {
+    "repo": "jpfulton/ng-resume-api-browser-sdk",
+    "repo_name": "ng-resume-api-browser-sdk",
+    "path": ""
+  },
+  {
+    "repo": "jpfulton/node-license-auditor-cli",
+    "repo_name": "node-license-auditor-cli",
     "path": ""
   }
 ]

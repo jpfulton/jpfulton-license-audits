@@ -66,8 +66,15 @@ jobs:
         run: yarn install
 
       - name: "Run Dependency Audit Report on Target Project"
+        if: inputs.path == ''
         run: |
           node-license-auditor-cli markdown ./working/${{ inputs.repo_name }} > reports/node_projects/${{ inputs.repo_name }}.md
+
+      - name: "Run Dependency Audit Report on Target Project in Sub-directory"
+        if: inputs.path != ''
+        run: |
+          node-license-auditor-cli markdown ./working/${{ inputs.repo_name }}/${{ inputs.path }} > reports/node_projects/${{ inputs.repo_name }}.md
+  
 
       - name: "Commit Report"
         continue-on-error: true
