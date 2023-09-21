@@ -35,12 +35,12 @@ jobs:
 
       - name: "Create Working Directory"
         run: |
-          mkdir -p working
+          mkdir -p working/${{ inputs.repo_name }}
 
       - name: "Check out repo to working directory"
         uses: actions/checkout@v4
         with:
-          path: working
+          path: working/${{ inputs.repo_name }}
           repository: ${{ inputs.repo }}
           token: ${{ secrets.personal_access_token }}
 
