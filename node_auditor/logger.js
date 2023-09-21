@@ -1,12 +1,14 @@
 /* eslint-disable import/no-unresolved, import/no-extraneous-dependencies */
-import licenseAuditor from '@brainhubeu/license-auditor';
+import licenseAuditor from './src/checkLicenses';
 
 import whitelist from './licenses/whitelist.js';
 import blacklist from './licenses/blacklist.js';
 
 const warn = msg => {
   // eslint-disable-next-line no-console
-  console.log('%s', `LICENSE WARNING AT ${msg}`);
+  const fields = msg.split("|");
+
+  // console.log('%s', `LICENSE WARNING AT ${msg}`);
 };
 
 const fail = msg => {
