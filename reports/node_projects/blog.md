@@ -1,6 +1,6 @@
 # Package Dependencies Audit Report: personal-site-blog
 
-> Generated at Thu, 21 Sep 2023 20:31:27 GMT
+> Generated at Thu, 21 Sep 2023 21:06:48 GMT
 
 |  | NAME | VERSION | LICENSE | PUBLISHER | EMAIL | REPOSITORY | MODULE PATH | LICENSE PATH |
 |---|---|---|---|---|---|---|---|---|
@@ -26,8 +26,8 @@
 | :yellow_circle: | @xtuc/ieee754 | 1.2.0 | BSD-3-Clause | Feross Aboukhadijeh | feross@feross.org | git://github.com/feross/ieee754.git| ./working/blog/node_modules/@xtuc/ieee754/package.json | ./working/blog/node_modules/@xtuc/ieee754/package.json  |
 | :yellow_circle: | @xtuc/long | 4.2.2 | Apache-2.0 | Daniel Wirtz <dcode@dcode.io> |  | https://github.com/dcodeIO/long.js.git| ./working/blog/node_modules/@xtuc/long/package.json | ./working/blog/node_modules/@xtuc/long/package.json  |
 | :yellow_circle: | abbrev | 1.1.1 | ISC | Isaac Z. Schlueter <i@izs.me> |  | | ./working/blog/node_modules/abbrev/package.json | ./working/blog/node_modules/abbrev/package.json  |
-| :red_circle | aliased | undefined | UNKNOWN |  |  | | ./working/blog/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/aliased-file/package.json | UNKNOWN  |
-| :red_circle | aliased | undefined | UNKNOWN |  |  | | ./working/blog/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/aliased/package.json | UNKNOWN  |
+| :red_circle: | aliased | undefined | UNKNOWN |  |  | | ./working/blog/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/aliased-file/package.json | UNKNOWN  |
+| :red_circle: | aliased | undefined | UNKNOWN |  |  | | ./working/blog/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/aliased/package.json | UNKNOWN  |
 | :yellow_circle: | ansi-align | 3.0.1 | ISC | nexdrew |  | git+https://github.com/nexdrew/ansi-align.git| ./working/blog/node_modules/ansi-align/package.json | ./working/blog/node_modules/ansi-align/package.json  |
 | :yellow_circle: | ansi-html-community | 0.0.8 | Apache-2.0 | mahdyar |  | git://github.com/mahdyar/ansi-html-community.git| ./working/blog/node_modules/ansi-html-community/package.json | ./working/blog/node_modules/ansi-html-community/package.json  |
 | :yellow_circle: | anymatch | 3.1.3 | ISC | Elan Shanker |  | https://github.com/micromatch/anymatch| ./working/blog/node_modules/anymatch/package.json | ./working/blog/node_modules/anymatch/package.json  |
@@ -53,7 +53,7 @@
 | :yellow_circle: | cheerio-select | 2.1.0 | BSD-2-Clause | Felix Boehm <me@feedic.com> |  | git://github.com/cheeriojs/cheerio-select.git| ./working/blog/node_modules/cheerio-select/package.json | ./working/blog/node_modules/cheerio-select/package.json  |
 | :yellow_circle: | chownr | 1.1.4 | ISC | Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/) |  | git://github.com/isaacs/chownr.git| ./working/blog/node_modules/tar-fs/node_modules/chownr/package.json | ./working/blog/node_modules/tar-fs/node_modules/chownr/package.json  |
 | :yellow_circle: | chownr | 2.0.0 | ISC | Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/) |  | git://github.com/isaacs/chownr.git| ./working/blog/node_modules/chownr/package.json | ./working/blog/node_modules/chownr/package.json  |
-| :red_circle | cli-table | 0.3.11 | UNKNOWN | Guillermo Rauch <guillermo@learnboost.com> |  | https://github.com/Automattic/cli-table.git| ./working/blog/node_modules/cli-table/package.json | UNKNOWN  |
+| :red_circle: | cli-table | 0.3.11 | UNKNOWN | Guillermo Rauch <guillermo@learnboost.com> |  | https://github.com/Automattic/cli-table.git| ./working/blog/node_modules/cli-table/package.json | UNKNOWN  |
 | :yellow_circle: | cli-width | 3.0.0 | ISC | Ilya Radchenko <knownasilya@gmail.com> |  | git@github.com:knownasilya/cli-width.git| ./working/blog/node_modules/cli-width/package.json | ./working/blog/node_modules/cli-width/package.json  |
 | :yellow_circle: | cliui | 6.0.0 | ISC | Ben Coe <ben@npmjs.com> |  | http://github.com/yargs/cliui.git| ./working/blog/node_modules/cliui/package.json | ./working/blog/node_modules/cliui/package.json  |
 | :yellow_circle: | color-support | 1.1.3 | ISC | Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/) |  | git+https://github.com/isaacs/color-support.git| ./working/blog/node_modules/color-support/package.json | ./working/blog/node_modules/color-support/package.json  |
@@ -119,7 +119,7 @@
 | :yellow_circle: | filesize | 8.0.7 | BSD-3-Clause | Jason Mulligan <jason.mulligan@avoidwork.com> |  | git://github.com/avoidwork/filesize.js.git| ./working/blog/node_modules/filesize/package.json | ./working/blog/node_modules/filesize/package.json  |
 | :yellow_circle: | flatted | 3.2.7 | ISC | Andrea Giammarchi |  | git+https://github.com/WebReflection/flatted.git| ./working/blog/node_modules/flatted/package.json | ./working/blog/node_modules/flatted/package.json  |
 | :yellow_circle: | flexsearch | 0.6.32 | Apache-2.0 | Thomas Wilkerling |  | https://github.com/nextapps-de/flexsearch.git| ./working/blog/node_modules/flexsearch/package.json | ./working/blog/node_modules/flexsearch/package.json  |
-| :red_circle | foo | undefined | UNKNOWN |  |  | | ./working/blog/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/foo/package.json | UNKNOWN  |
+| :red_circle: | foo | undefined | UNKNOWN |  |  | | ./working/blog/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/foo/package.json | UNKNOWN  |
 | :yellow_circle: | foreground-child | 3.1.1 | ISC | Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/) |  | git+https://github.com/tapjs/foreground-child.git| ./working/blog/node_modules/foreground-child/package.json | ./working/blog/node_modules/foreground-child/package.json  |
 | :yellow_circle: | forever-agent | 0.6.1 | Apache-2.0 | Mikeal Rogers <mikeal.rogers@gmail.com> (http://www.futurealoof.com) |  | https://github.com/mikeal/forever-agent| ./working/blog/node_modules/forever-agent/package.json | ./working/blog/node_modules/forever-agent/package.json  |
 | :yellow_circle: | form-data2 | 1.0.4 | WTFPL | Sven Slootweg |  | | ./working/blog/node_modules/form-data2/package.json | ./working/blog/node_modules/form-data2/package.json  |
@@ -157,7 +157,7 @@
 | :yellow_circle: | json-schema | 0.4.0 | (AFL-2.1 OR BSD-3-Clause) | Kris Zyp |  | http://github.com/kriszyp/json-schema| ./working/blog/node_modules/json-schema/package.json | ./working/blog/node_modules/json-schema/package.json  |
 | :yellow_circle: | json-stringify-safe | 5.0.1 | ISC | Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me) |  | git://github.com/isaacs/json-stringify-safe| ./working/blog/node_modules/json-stringify-safe/package.json | ./working/blog/node_modules/json-stringify-safe/package.json  |
 | :yellow_circle: | language-subtag-registry | 0.3.22 | CC0-1.0 |  |  | https://github.com/mattcg/language-subtag-registry| ./working/blog/node_modules/language-subtag-registry/package.json | ./working/blog/node_modules/language-subtag-registry/package.json  |
-| :red_circle | linkfs | 2.1.0 | UNKNOWN |  |  | https://github.com/streamich/linkfs.git| ./working/blog/node_modules/linkfs/package.json | UNKNOWN  |
+| :red_circle: | linkfs | 2.1.0 | UNKNOWN |  |  | https://github.com/streamich/linkfs.git| ./working/blog/node_modules/linkfs/package.json | UNKNOWN  |
 | :yellow_circle: | lru-cache | 4.1.5 | ISC | Isaac Z. Schlueter <i@izs.me> |  | | ./working/blog/node_modules/useragent/node_modules/lru-cache/package.json | ./working/blog/node_modules/useragent/node_modules/lru-cache/package.json  |
 | :yellow_circle: | lru-cache | 10.0.1 | ISC | Isaac Z. Schlueter <i@izs.me> |  | | ./working/blog/node_modules/path-scurry/node_modules/lru-cache/package.json | ./working/blog/node_modules/path-scurry/node_modules/lru-cache/package.json  |
 | :yellow_circle: | lru-cache | 7.18.3 | ISC | Isaac Z. Schlueter <i@izs.me> |  | | ./working/blog/node_modules/cacache/node_modules/lru-cache/package.json | ./working/blog/node_modules/cacache/node_modules/lru-cache/package.json  |
@@ -195,19 +195,19 @@
 | :yellow_circle: | objectFitPolyfill | 2.3.5 | ISC | Constance Chen <github.com/constancecchen> |  | git+https://github.com/constancecchen/object-fit-polyfill.git| ./working/blog/node_modules/objectFitPolyfill/package.json | ./working/blog/node_modules/objectFitPolyfill/package.json  |
 | :yellow_circle: | once | 1.4.0 | ISC | Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/) |  | git://github.com/isaacs/once| ./working/blog/node_modules/once/package.json | ./working/blog/node_modules/once/package.json  |
 | :yellow_circle: | opentracing | 0.14.7 | Apache-2.0 |  |  | https://github.com/opentracing/opentracing-javascript| ./working/blog/node_modules/opentracing/package.json | ./working/blog/node_modules/opentracing/package.json  |
-| :red_circle | package-alias | undefined | UNKNOWN |  |  | | ./working/blog/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/package-alias/package.json | UNKNOWN  |
-| :red_circle | package-alias-exclude | undefined | UNKNOWN |  |  | | ./working/blog/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/package-alias-exclude/package.json | UNKNOWN  |
-| :red_circle | package-alias-glob | undefined | UNKNOWN |  |  | | ./working/blog/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/package-alias-glob/package.json | UNKNOWN  |
-| :red_circle | package-browser | undefined | UNKNOWN |  |  | | ./working/blog/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/package-browser/package.json | UNKNOWN  |
-| :red_circle | package-browser-alias | undefined | UNKNOWN |  |  | | ./working/blog/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/package-browser-alias/package.json | UNKNOWN  |
-| :red_circle | package-browser-exclude | undefined | UNKNOWN |  |  | | ./working/blog/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/package-browser-exclude/package.json | UNKNOWN  |
-| :red_circle | package-fallback | undefined | UNKNOWN |  |  | | ./working/blog/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/package-fallback/package.json | UNKNOWN  |
-| :red_circle | package-main | undefined | UNKNOWN |  |  | | ./working/blog/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/package-main/package.json | UNKNOWN  |
-| :red_circle | package-main-directory | undefined | UNKNOWN |  |  | | ./working/blog/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/package-main-directory/package.json | UNKNOWN  |
-| :red_circle | package-module | undefined | UNKNOWN |  |  | | ./working/blog/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/package-module/package.json | UNKNOWN  |
-| :red_circle | package-module-fallback | undefined | UNKNOWN |  |  | | ./working/blog/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/package-module-fallback/package.json | UNKNOWN  |
-| :red_circle | parcel-transformer-bad-engines | 1.0.0 | UNKNOWN |  |  | | ./working/blog/node_modules/@parcel/core/test/fixtures/plugins/node_modules/parcel-transformer-bad-engines/package.json | UNKNOWN  |
-| :red_circle | parcel-transformer-no-engines | 1.0.0 | UNKNOWN |  |  | | ./working/blog/node_modules/@parcel/core/test/fixtures/plugins/node_modules/parcel-transformer-no-engines/package.json | UNKNOWN  |
+| :red_circle: | package-alias | undefined | UNKNOWN |  |  | | ./working/blog/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/package-alias/package.json | UNKNOWN  |
+| :red_circle: | package-alias-exclude | undefined | UNKNOWN |  |  | | ./working/blog/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/package-alias-exclude/package.json | UNKNOWN  |
+| :red_circle: | package-alias-glob | undefined | UNKNOWN |  |  | | ./working/blog/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/package-alias-glob/package.json | UNKNOWN  |
+| :red_circle: | package-browser | undefined | UNKNOWN |  |  | | ./working/blog/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/package-browser/package.json | UNKNOWN  |
+| :red_circle: | package-browser-alias | undefined | UNKNOWN |  |  | | ./working/blog/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/package-browser-alias/package.json | UNKNOWN  |
+| :red_circle: | package-browser-exclude | undefined | UNKNOWN |  |  | | ./working/blog/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/package-browser-exclude/package.json | UNKNOWN  |
+| :red_circle: | package-fallback | undefined | UNKNOWN |  |  | | ./working/blog/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/package-fallback/package.json | UNKNOWN  |
+| :red_circle: | package-main | undefined | UNKNOWN |  |  | | ./working/blog/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/package-main/package.json | UNKNOWN  |
+| :red_circle: | package-main-directory | undefined | UNKNOWN |  |  | | ./working/blog/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/package-main-directory/package.json | UNKNOWN  |
+| :red_circle: | package-module | undefined | UNKNOWN |  |  | | ./working/blog/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/package-module/package.json | UNKNOWN  |
+| :red_circle: | package-module-fallback | undefined | UNKNOWN |  |  | | ./working/blog/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/package-module-fallback/package.json | UNKNOWN  |
+| :red_circle: | parcel-transformer-bad-engines | 1.0.0 | UNKNOWN |  |  | | ./working/blog/node_modules/@parcel/core/test/fixtures/plugins/node_modules/parcel-transformer-bad-engines/package.json | UNKNOWN  |
+| :red_circle: | parcel-transformer-no-engines | 1.0.0 | UNKNOWN |  |  | | ./working/blog/node_modules/@parcel/core/test/fixtures/plugins/node_modules/parcel-transformer-no-engines/package.json | UNKNOWN  |
 | :yellow_circle: | parse-domain | 0.2.2 | Unlicense | peerigon <developers@peerigon.com> |  | https://github.com/peerigon/parse-domain.git| ./working/blog/node_modules/parse-domain/package.json | ./working/blog/node_modules/parse-domain/package.json  |
 | :yellow_circle: | parse-numeric-range | 1.3.0 | ISC | Euan Kemp |  | https://github.com/euank/node-parse-numeric-range.git| ./working/blog/node_modules/parse-numeric-range/package.json | ./working/blog/node_modules/parse-numeric-range/package.json  |
 | :yellow_circle: | password-prompt | 1.1.3 | 0BSD | Jeff Dickey @jdxcode |  | | ./working/blog/node_modules/password-prompt/package.json | ./working/blog/node_modules/password-prompt/package.json  |
@@ -228,12 +228,12 @@
 | :yellow_circle: | remove-trailing-separator | 1.1.0 | ISC | darsain |  | git+https://github.com/darsain/remove-trailing-separator.git| ./working/blog/node_modules/remove-trailing-separator/package.json | ./working/blog/node_modules/remove-trailing-separator/package.json  |
 | :yellow_circle: | request | 2.88.2 | Apache-2.0 | Mikeal Rogers <mikeal.rogers@gmail.com> |  | https://github.com/request/request.git| ./working/blog/node_modules/request/package.json | ./working/blog/node_modules/request/package.json  |
 | :yellow_circle: | require-main-filename | 2.0.0 | ISC | Ben Coe <ben@npmjs.com> |  | git+ssh://git@github.com/yargs/require-main-filename.git| ./working/blog/node_modules/require-main-filename/package.json | ./working/blog/node_modules/require-main-filename/package.json  |
-| :red_circle | rework | 1.0.1 | UNKNOWN | TJ Holowaychuk <tj@vision-media.ca> |  | git://github.com/reworkcss/rework.git| ./working/blog/node_modules/rework/package.json | UNKNOWN  |
+| :red_circle: | rework | 1.0.1 | UNKNOWN | TJ Holowaychuk <tj@vision-media.ca> |  | git://github.com/reworkcss/rework.git| ./working/blog/node_modules/rework/package.json | UNKNOWN  |
 | :yellow_circle: | rimraf | 3.0.2 | ISC | Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/) |  | | ./working/blog/node_modules/rimraf/package.json | ./working/blog/node_modules/rimraf/package.json  |
 | :yellow_circle: | rimraf | 2.7.1 | ISC | Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/) |  | | ./working/blog/node_modules/devcert/node_modules/rimraf/package.json | ./working/blog/node_modules/devcert/node_modules/rimraf/package.json  |
 | :yellow_circle: | rxjs | 6.6.7 | Apache-2.0 | Ben Lesh <ben@benlesh.com> |  | https://github.com/reactivex/rxjs.git| ./working/blog/node_modules/rxjs/package.json | ./working/blog/node_modules/rxjs/package.json  |
 | :yellow_circle: | sax | 1.2.4 | ISC | Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/) |  | | ./working/blog/node_modules/sax/package.json | ./working/blog/node_modules/sax/package.json  |
-| :red_circle | scope-pkg | undefined | UNKNOWN |  |  | | ./working/blog/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/@scope/pkg/package.json | UNKNOWN  |
+| :red_circle: | scope-pkg | undefined | UNKNOWN |  |  | | ./working/blog/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/@scope/pkg/package.json | UNKNOWN  |
 | :yellow_circle: | semver | 5.5.1 | ISC |  |  | | ./working/blog/node_modules/useragent/node_modules/semver/package.json | ./working/blog/node_modules/useragent/node_modules/semver/package.json  |
 | :yellow_circle: | semver | 6.3.1 | ISC | GitHub Inc. |  | https://github.com/npm/node-semver.git| ./working/blog/node_modules/gatsby-cli/node_modules/@babel/helper-compilation-targets/node_modules/semver/package.json | ./working/blog/node_modules/gatsby-cli/node_modules/@babel/helper-compilation-targets/node_modules/semver/package.json  |
 | :yellow_circle: | semver | 6.3.1 | ISC | GitHub Inc. |  | https://github.com/npm/node-semver.git| ./working/blog/node_modules/gatsby-cli/node_modules/@babel/helper-create-class-features-plugin/node_modules/semver/package.json | ./working/blog/node_modules/gatsby-cli/node_modules/@babel/helper-create-class-features-plugin/node_modules/semver/package.json  |
@@ -275,8 +275,8 @@
 | :yellow_circle: | set-blocking | 2.0.0 | ISC | Ben Coe <ben@npmjs.com> |  | git+https://github.com/yargs/set-blocking.git| ./working/blog/node_modules/set-blocking/package.json | ./working/blog/node_modules/set-blocking/package.json  |
 | :yellow_circle: | setprototypeof | 1.2.0 | ISC | Wes Todd |  | https://github.com/wesleytodd/setprototypeof.git| ./working/blog/node_modules/setprototypeof/package.json | ./working/blog/node_modules/setprototypeof/package.json  |
 | :yellow_circle: | sharp | 0.32.4 | Apache-2.0 | Lovell Fuller <npm@lovell.info> |  | git://github.com/lovell/sharp| ./working/blog/node_modules/sharp/package.json | ./working/blog/node_modules/sharp/package.json  |
-| :red_circle | side-effects-false | undefined | UNKNOWN |  |  | | ./working/blog/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/side-effects-false/package.json | UNKNOWN  |
-| :red_circle | side-effects-false-glob | undefined | UNKNOWN |  |  | | ./working/blog/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/side-effects-false-glob/package.json | UNKNOWN  |
+| :red_circle: | side-effects-false | undefined | UNKNOWN |  |  | | ./working/blog/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/side-effects-false/package.json | UNKNOWN  |
+| :red_circle: | side-effects-false-glob | undefined | UNKNOWN |  |  | | ./working/blog/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/side-effects-false-glob/package.json | UNKNOWN  |
 | :yellow_circle: | signal-exit | 3.0.7 | ISC | Ben Coe <ben@npmjs.com> |  | https://github.com/tapjs/signal-exit.git| ./working/blog/node_modules/signal-exit/package.json | ./working/blog/node_modules/signal-exit/package.json  |
 | :yellow_circle: | signal-exit | 4.1.0 | ISC | Ben Coe <ben@npmjs.com> |  | https://github.com/tapjs/signal-exit.git| ./working/blog/node_modules/foreground-child/node_modules/signal-exit/package.json | ./working/blog/node_modules/foreground-child/node_modules/signal-exit/package.json  |
 | :yellow_circle: | signedsource | 1.0.0 | BSD-3-Clause |  |  | | ./working/blog/node_modules/signedsource/package.json | ./working/blog/node_modules/signedsource/package.json  |
@@ -284,8 +284,8 @@
 | :yellow_circle: | source-map | 0.7.4 | BSD-3-Clause | Nick Fitzgerald <nfitzgerald@mozilla.com> |  | http://github.com/mozilla/source-map.git| ./working/blog/node_modules/@pmmmwh/react-refresh-webpack-plugin/node_modules/source-map/package.json | ./working/blog/node_modules/@pmmmwh/react-refresh-webpack-plugin/node_modules/source-map/package.json  |
 | :yellow_circle: | source-map | 0.6.1 | BSD-3-Clause | Nick Fitzgerald <nfitzgerald@mozilla.com> |  | http://github.com/mozilla/source-map.git| ./working/blog/node_modules/source-map/package.json | ./working/blog/node_modules/source-map/package.json  |
 | :yellow_circle: | source-map-js | 1.0.2 | BSD-3-Clause | Valentin 7rulnik Semirulnik <v7rulnik@gmail.com> |  | | ./working/blog/node_modules/source-map-js/package.json | ./working/blog/node_modules/source-map-js/package.json  |
-| :red_circle | source-not-symlinked | undefined | UNKNOWN |  |  | | ./working/blog/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/source-not-symlinked/package.json | UNKNOWN  |
-| :red_circle | source-pnpm | undefined | UNKNOWN |  |  | | ./working/blog/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/.pnpm/source-pnpm@1.0.0/node_modules/source-pnpm/package.json | UNKNOWN  |
+| :red_circle: | source-not-symlinked | undefined | UNKNOWN |  |  | | ./working/blog/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/source-not-symlinked/package.json | UNKNOWN  |
+| :red_circle: | source-pnpm | undefined | UNKNOWN |  |  | | ./working/blog/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/.pnpm/source-pnpm@1.0.0/node_modules/source-pnpm/package.json | UNKNOWN  |
 | :yellow_circle: | splitargs | 0.0.7 | ISC | Elgs Chen |  | https://github.com/elgs/splitargs| ./working/blog/node_modules/splitargs/package.json | ./working/blog/node_modules/splitargs/package.json  |
 | :yellow_circle: | sprintf-js | 1.0.3 | BSD-3-Clause | Alexandru Marasteanu <hello@alexei.ro> (http://alexei.ro/) |  | https://github.com/alexei/sprintf.js.git| ./working/blog/node_modules/sprintf-js/package.json | ./working/blog/node_modules/sprintf-js/package.json  |
 | :yellow_circle: | ssri | 10.0.5 | ISC | GitHub Inc. |  | https://github.com/npm/ssri.git| ./working/blog/node_modules/ssri/package.json | ./working/blog/node_modules/ssri/package.json  |
@@ -321,7 +321,7 @@
 | :yellow_circle: | unique-filename | 3.0.0 | ISC | GitHub Inc. |  | https://github.com/npm/unique-filename.git| ./working/blog/node_modules/unique-filename/package.json | ./working/blog/node_modules/unique-filename/package.json  |
 | :yellow_circle: | unique-slug | 4.0.0 | ISC | GitHub Inc. |  | https://github.com/npm/unique-slug.git| ./working/blog/node_modules/unique-slug/package.json | ./working/blog/node_modules/unique-slug/package.json  |
 | :yellow_circle: | uri-js | 4.4.1 | BSD-2-Clause | Gary Court <gary.court@gmail.com> |  | http://github.com/garycourt/uri-js| ./working/blog/node_modules/uri-js/package.json | ./working/blog/node_modules/uri-js/package.json  |
-| :red_circle | valid-url | 1.0.9 | UNKNOWN |  |  | git://github.com/ogt/valid-url.git| ./working/blog/node_modules/valid-url/package.json | UNKNOWN  |
+| :red_circle: | valid-url | 1.0.9 | UNKNOWN |  |  | git://github.com/ogt/valid-url.git| ./working/blog/node_modules/valid-url/package.json | UNKNOWN  |
 | :yellow_circle: | webidl-conversions | 3.0.1 | BSD-2-Clause | Domenic Denicola <d@domenic.me> (https://domenic.me/) |  | | ./working/blog/node_modules/webidl-conversions/package.json | ./working/blog/node_modules/webidl-conversions/package.json  |
 | :yellow_circle: | which | 1.3.1 | ISC | Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me) |  | git://github.com/isaacs/node-which.git| ./working/blog/node_modules/clipboardy/node_modules/which/package.json | ./working/blog/node_modules/clipboardy/node_modules/which/package.json  |
 | :yellow_circle: | which | 1.3.1 | ISC | Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me) |  | git://github.com/isaacs/node-which.git| ./working/blog/node_modules/global-prefix/node_modules/which/package.json | ./working/blog/node_modules/global-prefix/node_modules/which/package.json  |
@@ -337,7 +337,7 @@
 | :yellow_circle: | yallist | 3.1.1 | ISC | Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/) |  | git+https://github.com/isaacs/yallist.git| ./working/blog/node_modules/lru-cache/node_modules/yallist/package.json | ./working/blog/node_modules/lru-cache/node_modules/yallist/package.json  |
 | :yellow_circle: | yaml | 2.3.1 | ISC | Eemeli Aro <eemeli@gmail.com> |  | | ./working/blog/node_modules/yaml-loader/node_modules/yaml/package.json | ./working/blog/node_modules/yaml-loader/node_modules/yaml/package.json  |
 | :yellow_circle: | yaml | 1.10.2 | ISC | Eemeli Aro <eemeli@gmail.com> |  | | ./working/blog/node_modules/yaml/package.json | ./working/blog/node_modules/yaml/package.json  |
-| :red_circle | yamlparser | 0.0.2 | UNKNOWN | Diogo Costa <costa.h4evr@gmail.com> (http://diogocosta.pt.tl/) |  | git://github.com/h4evr/commonjs-javascript-yaml-parser.git| ./working/blog/node_modules/yamlparser/package.json | UNKNOWN  |
+| :red_circle: | yamlparser | 0.0.2 | UNKNOWN | Diogo Costa <costa.h4evr@gmail.com> (http://diogocosta.pt.tl/) |  | git://github.com/h4evr/commonjs-javascript-yaml-parser.git| ./working/blog/node_modules/yamlparser/package.json | UNKNOWN  |
 | :yellow_circle: | yargs-parser | 18.1.3 | ISC | Ben Coe <ben@npmjs.com> |  | https://github.com/yargs/yargs-parser.git| ./working/blog/node_modules/yargs-parser/package.json | ./working/blog/node_modules/yargs-parser/package.json  |
 | :yellow_circle: | yurnalist | 2.1.0 | BSD-2-Clause | Thijs Koerselman |  | | ./working/blog/node_modules/yurnalist/package.json | ./working/blog/node_modules/yurnalist/package.json  |
 
