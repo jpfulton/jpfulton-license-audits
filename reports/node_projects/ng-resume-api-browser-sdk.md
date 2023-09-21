@@ -1,6 +1,6 @@
 # Package Dependencies Audit Report: @jpfulton/ng-resume-api-browser-sdk
 
-> Generated at Thu, 21 Sep 2023 21:04:59 GMT
+> Generated at Thu, 21 Sep 2023 21:11:18 GMT
 
 |  | NAME | VERSION | LICENSE | PUBLISHER | EMAIL | REPOSITORY | MODULE PATH | LICENSE PATH |
 |---|---|---|---|---|---|---|---|---|
