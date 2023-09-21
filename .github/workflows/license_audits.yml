@@ -35,6 +35,7 @@ jobs:
       path: ${{ matrix.repository.path }}
       repo: ${{ matrix.repository.repo }}
       repo_name: ${{ matrix.repository.repo_name }}
+      yarn_classic: ${{ matrix.repository.yarn_classic }}
     secrets:
       token: ${{ secrets.GITHUB_TOKEN }}
       personal_access_token: ${{ secrets.personal_access_token }}

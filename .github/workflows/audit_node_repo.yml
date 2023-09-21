@@ -12,6 +12,9 @@ on:
       repo_name:
         type: string
         required: true
+      yarn_classic:
+        type: boolean
+        default: true
     secrets:
       token:
         required: true
@@ -47,6 +50,7 @@ jobs:
           yarn global add @jpfulton/node-license-auditor-cli
 
       - name: "Update Yarn Version"
+        if: ${{ inputs.yarn_classic != true }}
         run: corepack enable && yarn set version stable
 
       - name: "Create Working and Reports Directories"
@@ -75,7 +79,6 @@ jobs:
         run: |
           node-license-auditor-cli markdown ./working/${{ inputs.repo_name }}/${{ inputs.path }} > reports/node_projects/${{ inputs.repo_name }}.md
   
-
       - name: "Commit Report"
         continue-on-error: true
         working-directory: reports
