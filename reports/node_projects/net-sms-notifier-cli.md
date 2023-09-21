@@ -1,6 +1,6 @@
 # Package Dependencies Audit Report: @jpfulton/net-sms-notifier-cli
 
-> Generated at Thu, 21 Sep 2023 21:05:21 GMT
+> Generated at Thu, 21 Sep 2023 21:11:35 GMT
 
 |  | NAME | VERSION | LICENSE | PUBLISHER | EMAIL | REPOSITORY | MODULE PATH | LICENSE PATH |
 |---|---|---|---|---|---|---|---|---|
