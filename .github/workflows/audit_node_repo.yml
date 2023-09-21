@@ -71,7 +71,7 @@ jobs:
 
       - name: "Commit Report"
         continue-on-error: true
-        working-directory: working
+        working-directory: reports
         run: |
           git pull
           git add -A .
