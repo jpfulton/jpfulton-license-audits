@@ -10,4 +10,4 @@ const ciNotifications = ({ warn, fail }) => {
   return { createWarnNotification, createErrorNotification };
 };
 
-module.exports = ciNotifications;
+export default ciNotifications;

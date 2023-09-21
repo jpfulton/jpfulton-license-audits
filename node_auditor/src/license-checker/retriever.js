@@ -1,4 +1,4 @@
-const fs = require('fs');
+import { existsSync, readFileSync } from 'fs';
 
 function Retriever(licenseMap, templates) {
   function retrieveLicenseFromLicenseFileContent(content) {
@@ -13,18 +13,18 @@ function Retriever(licenseMap, templates) {
   }
 
   function retrieveLicenseFromLicenseFile(filename) {
-    if (!fs.existsSync(filename)) {
+    if (!existsSync(filename)) {
       return '';
     }
-    const content = fs.readFileSync(filename).toString();
+    const content = readFileSync(filename).toString();
     return retrieveLicenseFromLicenseFileContent(content);
   }
 
   function retrieveLicenseFromReadme(filename) {
-    if (!fs.existsSync(filename)) {
+    if (!existsSync(filename)) {
       return '';
     }
-    const lines = fs.readFileSync(filename).toString().split('\n').filter(line => line);
+    const lines = readFileSync(filename).toString().split('\n').filter(line => line);
     const licenseWordIndex = lines.findIndex(line => /#* *License *$/.test(line));
     if (licenseWordIndex < 0) {
       return '';
@@ -40,4 +40,4 @@ function Retriever(licenseMap, templates) {
   };
 }
 
-module.exports = Retriever;
+export default Retriever;

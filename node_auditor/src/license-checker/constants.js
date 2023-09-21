@@ -1,8 +1,14 @@
-const fs = require('fs');
+import { readFileSync } from 'fs';
+
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const templates = {
-  [fs.readFileSync(`${__dirname}/templates/BSD-2-Clause.txt`).toString()]: 'BSD 2-Clause',
-  [fs.readFileSync(`${__dirname}/templates/MIT.txt`).toString()]: 'MIT',
+  [readFileSync(`${__dirname}/templates/BSD-2-Clause.txt`).toString()]: 'BSD 2-Clause',
+  [readFileSync(`${__dirname}/templates/MIT.txt`).toString()]: 'MIT',
 };
 
 const licenseMap = {
@@ -33,7 +39,7 @@ const readmeFiles = [
   'README.markdown',
 ];
 
-module.exports = {
+export default {
   templates,
   licenseMap,
   licenseFiles,

@@ -2,8 +2,8 @@
   "name": "jpfulton-license-audits",
   "type": "module",
   "packageManager": "yarn@3.6.3",
-  "devDependencies": {
-    "@brainhubeu/license-auditor": "^1.2.0",
-    "danger": "^11.2.8"
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "lodash": "^4.17.21"
   }
 }

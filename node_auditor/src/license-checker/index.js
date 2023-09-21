@@ -1,3 +1,3 @@
-const licenseChecker = require('./licenseChecker');
+import licenseChecker from './licenseChecker';
 
-module.exports = licenseChecker;
+export default licenseChecker;

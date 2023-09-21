@@ -1,6 +1,6 @@
-const noPathSpecified = 'Project path is not specified.';
-const noLicenses = 'There are no licenses to check';
-const moduleInfo = licenseItem => `MODULE PATH: ${licenseItem.path}
+export const noPathSpecified = 'Project path is not specified.';
+export const noLicenses = 'There are no licenses to check';
+export const moduleInfo = licenseItem => `MODULE PATH: ${licenseItem.path}
 | LICENSE: ${licenseItem.licenses}
 | LICENSE PATH: ${licenseItem.licensePath}
 | REPOSITORY: ${licenseItem.repository}
@@ -9,4 +9,4 @@ const moduleInfo = licenseItem => `MODULE PATH: ${licenseItem.path}
 | VERSION: ${licenseItem.version}
 `;
 
-module.exports = { noPathSpecified, noLicenses, moduleInfo };
+export default { noPathSpecified, noLicenses, moduleInfo };

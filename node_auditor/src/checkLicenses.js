@@ -1,7 +1,7 @@
-const licenseChecker = require('./license-checker');
-const messages = require('./messages');
-const ciNotification = require('./ciNotifications');
-const parseLicensesFactory = require('./parseLicenses');
+import { findAllLicenses } from './license-checker/licenseChecker.js';
+import { noPathSpecified, noLicenses } from './messages.js';
+import ciNotification from './ciNotifications.js';
+import parseLicensesFactory from './parseLicenses.js';
 
 const checkLicenses = async ({
   whitelistedLicenses,
@@ -9,20 +9,23 @@ const checkLicenses = async ({
   whitelistedModules = {},
   projectPath,
   ciManager,
+  consoleManager,
 }) => {
   const { createWarnNotification, createErrorNotification } = ciNotification(
     ciManager,
   );
 
+  const { createWarnMarkdown, createErrorMarkdown } = consoleManager;
+
   if (!projectPath) {
-    return createErrorNotification(messages.noPathSpecified);
+    return createErrorNotification(noPathSpecified);
   }
 
   try {
-    const licenses = await licenseChecker.findAllLicenses({ projectPath });
+    const licenses = await findAllLicenses({ projectPath });
 
     if (!licenses || licenses.length <= 0) {
-      return createWarnNotification(messages.noLicenses);
+      return createWarnNotification(noLicenses);
     }
 
     const parse = parseLicensesFactory({
@@ -31,6 +34,8 @@ const checkLicenses = async ({
       whitelistedModules,
       createWarnNotification,
       createErrorNotification,
+      createWarnMarkdown,
+      createErrorMarkdown,
     });
 
     parse(licenses);
@@ -39,4 +44,4 @@ const checkLicenses = async ({
   }
 };
 
-module.exports = checkLicenses;
+export default checkLicenses;

@@ -1,4 +1,4 @@
-const messages = require('./messages');
+import messages from './messages.js';
 
 const parseLicenses = ({
   whitelistedLicenses,
@@ -6,6 +6,8 @@ const parseLicenses = ({
   whitelistedModules = {},
   createWarnNotification,
   createErrorNotification,
+  createWarnMarkdown,
+  createErrorMarkdown,
 }) => licenses => {
   licenses.forEach(licenseObj => {
     const whitelistedLicenseForModule = whitelistedModules[licenseObj.name];
@@ -34,13 +36,17 @@ const parseLicenses = ({
       : blacklistedLicenses.includes(licenseObj.licenses);
 
     if (!isWhitelisted && !isBlacklisted) {
-      return createWarnNotification(messages.moduleInfo(licenseObj));
+      return createWarnMarkdown ?
+        createWarnMarkdown(licenseObj) :
+        createWarnNotification(messages.moduleInfo(licenseObj));
     }
 
     if (isBlacklisted) {
-      return createErrorNotification(messages.moduleInfo(licenseObj));
+      return createErrorMarkdown ?
+        createErrorMarkdown(licenseObj) :
+        createErrorNotification(messages.moduleInfo(licenseObj));
     }
   });
 };
 
-module.exports = parseLicenses;
+export default parseLicenses;

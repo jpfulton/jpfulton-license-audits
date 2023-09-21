@@ -1,17 +1,18 @@
 /* eslint-disable no-empty */
-const { exec } = require('child_process');
-const fs = require('fs');
+import { exec } from 'child_process';
+import { readFileSync } from 'fs';
 
-const bluebird = require('bluebird');
-const _ = require('lodash');
+import bluebird from 'bluebird';
+const { mapSeries } = bluebird;
+import lodash from 'lodash';
+const { get } = lodash;
 
-const Retriever = require('./retriever');
+import Retriever from './retriever.js';
+
+import constants from './constants.js';
 const {
-  templates,
-  licenseMap,
-  licenseFiles,
-  readmeFiles,
-} = require('./constants');
+  templates, licenseMap, licenseFiles, readmeFiles,
+} = constants;
 
 const findDirPath = () => new Promise((resolve, reject) => {
   exec('pwd', async (err, stdout, stderr) => {
@@ -83,35 +84,33 @@ const findLicense = async (item, dirPath) => {
   return { licenses: 'UNKNOWN', licensePath: 'UNKNOWN' };
 };
 
-const licenseChecker = {
-  findAllLicenses: ({ projectPath }) => new Promise((resolve, reject) => {
-    exec(`find ${projectPath}/node_modules -name "package.json"`, async (err, stdout, stderr) => {
-      if (err) {
-        reject(err);
-      }
-      if (stderr) {
-        console.error(stderr);
-      }
-      const dirPath = await findDirPath();
-      const packages = stdout.split('\n')
-        .filter(x => x)
-        .filter(x => /node_modules\/[0-9A-Za-z-]*\/package\.json$/.test(x)
-                || /node_modules\/@[0-9A-Za-z-]*\/[0-9A-Za-z-]*\/package\.json$/.test(x));
-      const data = packages
-        .map(path => ({ path, ...JSON.parse(fs.readFileSync(path).toString()) }))
-        .filter(item => item.name);
-      const licenseData = await bluebird.mapSeries(data, async item => ({
-        ...(await findLicense(item, dirPath)),
-        path: item.path,
-        name: item.name,
-        repository: _.get(item, 'repository.url'),
-        publisher: _.get(item, 'author.name', item.author),
-        email: _.get(item, 'author.email'),
-        version: item.version,
-      }));
-      resolve(licenseData);
-    });
-  }),
-};
+export const findAllLicenses = ({ projectPath }) => new Promise((resolve, reject) => {
+  exec(`find ${projectPath}/node_modules -name "package.json"`, async (err, stdout, stderr) => {
+    if (err) {
+      reject(err);
+    }
+    if (stderr) {
+      console.error(stderr);
+    }
+    const dirPath = await findDirPath();
+    const packages = stdout.split('\n')
+      .filter(x => x)
+      .filter(x => /node_modules\/[0-9A-Za-z-]*\/package\.json$/.test(x)
+        || /node_modules\/@[0-9A-Za-z-]*\/[0-9A-Za-z-]*\/package\.json$/.test(x));
+    const data = packages
+      .map(path => ({ path, ...JSON.parse(readFileSync(path).toString()) }))
+      .filter(item => item.name);
+    const licenseData = await mapSeries(data, async item => ({
+      ...(await findLicense(item, dirPath)),
+      path: item.path,
+      name: item.name,
+      repository: get(item, 'repository.url'),
+      publisher: get(item, 'author.name', item.author),
+      email: get(item, 'author.email'),
+      version: item.version,
+    }));
+    resolve(licenseData);
+  });
+});
 
-module.exports = licenseChecker;
+// export default findAllLicenses;
