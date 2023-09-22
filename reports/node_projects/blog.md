@@ -1,6 +1,6 @@
 # Package Dependencies Audit Report: personal-site-blog
 
-> Generated at Fri, 22 Sep 2023 17:43:43 GMT
+> Generated at Fri, 22 Sep 2023 18:03:54 GMT
 
 |  | NAME | VERSION | LICENSE | PUBLISHER | EMAIL | REPOSITORY | MODULE PATH | LICENSE PATH |
 |---|---|---|---|---|---|---|---|---|
