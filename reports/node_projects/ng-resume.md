@@ -1,6 +1,6 @@
 # Package Dependencies Audit Report: ng-resume
 
-> Generated at Fri, 22 Sep 2023 17:43:29 GMT
+> Generated at Fri, 22 Sep 2023 18:03:25 GMT
 
 |  | NAME | VERSION | LICENSE | PUBLISHER | EMAIL | REPOSITORY | MODULE PATH | LICENSE PATH |
 |---|---|---|---|---|---|---|---|---|
