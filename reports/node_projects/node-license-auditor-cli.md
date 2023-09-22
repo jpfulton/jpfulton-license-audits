@@ -1,6 +1,6 @@
 # Package Dependencies Audit Report: @jpfulton/node-license-auditor-cli
 
-> Generated at Fri, 22 Sep 2023 19:00:05 GMT
+> Generated at Fri, 22 Sep 2023 19:17:03 GMT
 
 |  | NAME | VERSION | LICENSE | PUBLISHER | EMAIL | REPOSITORY | MODULE PATH | LICENSE PATH |
 |---|---|---|---|---|---|---|---|---|
