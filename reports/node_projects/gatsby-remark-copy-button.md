@@ -1,6 +1,6 @@
 # Package Dependencies Audit Report: @jpfulton/gatsby-remark-copy-button
 
-> Generated at Fri, 22 Sep 2023 18:03:21 GMT
+> Generated at Fri, 22 Sep 2023 19:01:18 GMT
 
 |  | NAME | VERSION | LICENSE | PUBLISHER | EMAIL | REPOSITORY | MODULE PATH | LICENSE PATH |
 |---|---|---|---|---|---|---|---|---|
