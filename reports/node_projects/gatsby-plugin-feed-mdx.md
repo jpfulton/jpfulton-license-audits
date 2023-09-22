@@ -1,6 +1,6 @@
 # Package Dependencies Audit Report: @jpfulton/gatsby-plugin-feed-mdx
 
-> Generated at Fri, 22 Sep 2023 17:42:12 GMT
+> Generated at Fri, 22 Sep 2023 18:01:56 GMT
 
 |  | NAME | VERSION | LICENSE | PUBLISHER | EMAIL | REPOSITORY | MODULE PATH | LICENSE PATH |
 |---|---|---|---|---|---|---|---|---|
