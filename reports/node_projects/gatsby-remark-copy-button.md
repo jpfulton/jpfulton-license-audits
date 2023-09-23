@@ -1,7 +1,14 @@
 # Package Dependencies Audit Report: @jpfulton/gatsby-remark-copy-button
 
-> Generated at Fri, 22 Sep 2023 23:33:58 GMT <br />
-> Generated using version 0.0.11 of node-license-auditor-cli.
+> Generated at Sat, 23 Sep 2023 20:20:42 GMT <br />
+> Generated using version 0.0.13 of node-license-auditor-cli.
+
+## Metadata
+| Unique Licenses | Whitelisted Licenses | Warned Licenses | Blacklisted Licenses |
+|---|---|---|---|
+| 1295 | 1085 | 209 | 1 |
+
+## Licenses
 
 |  | NAME | VERSION | LICENSE | PUBLISHER | EMAIL | REPOSITORY | MODULE PATH | LICENSE PATH |
 |---|---|---|---|---|---|---|---|---|
