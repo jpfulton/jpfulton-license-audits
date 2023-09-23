@@ -1,10 +1,10 @@
 # Package Dependencies Audit Report: personal-site-blog
 
-> Generated at Sat, 23 Sep 2023 20:21:17 GMT <br />
-> Generated using version 0.0.13 of node-license-auditor-cli.
+> Generated at Sat, 23 Sep 2023 20:58:25 GMT <br />
+> Generated using version 0.0.14 of node-license-auditor-cli.
 
 ## Metadata
-| Unique Licenses | Whitelisted Licenses | Warned Licenses | Blacklisted Licenses |
+| :hash: Unique Licenses | :green_circle: Whitelisted Licenses | :yellow_circle: Warned Licenses | :red_circle: Blacklisted Licenses |
 |---|---|---|---|
 | 1728 | 1475 | 248 | 5 |
 
