@@ -1,0 +1,9 @@
+{
+  "blackList": [
+    "UNKNOWN"
+  ],
+  "whiteList": [
+    "MIT",
+    "Apache-2.0"
+  ]
+}
