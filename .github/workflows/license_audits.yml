@@ -23,14 +23,76 @@ jobs:
           JSON=${JSON//$'\n'/};
           echo "node-repositories-json=$JSON" >> $GITHUB_OUTPUT;
 
-  audit-node-project-licenses:
+  audit-node-project-licenses-to-markdown:
     name: "Audit: ${{ matrix.repository.repo_name }}"
     needs: load-configuration
     strategy:
       fail-fast: false
       matrix: 
         repository: ${{ fromJson(needs.load-configuration.outputs.node-repositories) }}
-    uses: ./.github/workflows/audit_node_repo.yml
+    uses: ./.github/workflows/audit_node_repo_markdown.yml
+    with:
+      path: ${{ matrix.repository.path }}
+      repo: ${{ matrix.repository.repo }}
+      repo_name: ${{ matrix.repository.repo_name }}
+      yarn_classic: ${{ matrix.repository.yarn_classic }}
+    secrets:
+      token: ${{ secrets.GITHUB_TOKEN }}
+      personal_access_token: ${{ secrets.personal_access_token }}
+
+  audit-node-project-licenses-to-csv-headers:
+    name: "Write CSV Headers"
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: "Checkout GitHub Action"
+        uses: actions/checkout@v4
+
+      - name: "Configure Git"
+        run: |
+          git config user.name jpfulton
+          git config user.email jpatrick.fulton@gmail.com
+      
+      - name: "Git Pull"
+        run: |
+          git pull
+  
+      - name: Set up node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18.x
+
+      - name: "Install Node Auditor CLI"
+        run: |
+          yarn global add @jpfulton/node-license-auditor-cli
+
+      - name: "Create Reports Directory"
+        run: |
+          mkdir -p reports/node_projects/
+
+      - name: "Write Headers"
+        run: |
+          node-license-auditor-cli csv --write-headers true --write-data false . > reports/node_projects/license-audit.csv
+    
+      - name: "Commit Report"
+        continue-on-error: true
+        working-directory: reports
+        run: |
+          git pull
+          git add -A .
+          git commit -m "Generated reports [skip ci]"
+          git push
+
+  audit-node-project-licenses-to-csv:
+    name: "Audit: ${{ matrix.repository.repo_name }}"
+    needs: [audit-node-project-licenses-to-csv-headers, load-configuration]
+    strategy:
+      fail-fast: false
+      max-parallel: 1
+      matrix: 
+        repository: ${{ fromJson(needs.load-configuration.outputs.node-repositories) }}
+    uses: ./.github/workflows/audit_node_repo_csv.yml
     with:
       path: ${{ matrix.repository.path }}
       repo: ${{ matrix.repository.repo }}

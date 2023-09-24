@@ -1,4 +1,4 @@
-name: "Audit Node Repo"
+name: "Audit Node Repo to CSV"
 
 on:
   workflow_call:
@@ -55,7 +55,6 @@ jobs:
 
       - name: "Create Working and Reports Directories"
         run: |
-          mkdir -p working/${{ inputs.repo_name }}
           mkdir -p reports/node_projects/
 
       - name: "Check out repo to working directory"
@@ -78,12 +77,12 @@ jobs:
       - name: "Run Dependency Audit Report on Target Project"
         if: inputs.path == ''
         run: |
-          node-license-auditor-cli markdown ./working/${{ inputs.repo_name }} > reports/node_projects/${{ inputs.repo_name }}.md
+          node-license-auditor-cli csv --write-headers false ./working/${{ inputs.repo_name }} >> reports/node_projects/license-audit.csv
 
       - name: "Run Dependency Audit Report on Target Project in Sub-directory"
         if: inputs.path != ''
         run: |
-          node-license-auditor-cli markdown ./working/${{ inputs.repo_name }}/${{ inputs.path }} > reports/node_projects/${{ inputs.repo_name }}.md
+          node-license-auditor-cli csv --write-headers false ./working/${{ inputs.repo_name }}/${{ inputs.path }} >> reports/node_projects/license-audit.csv
   
       - name: "Commit Report"
         continue-on-error: true

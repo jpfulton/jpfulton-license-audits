@@ -1,0 +1,102 @@
+name: "Audit Node Repo to Markdown"
+
+on:
+  workflow_call:
+    inputs:
+      path:
+        type: string
+        required: true
+      repo:
+        type: string
+        required: true
+      repo_name:
+        type: string
+        required: true
+      yarn_classic:
+        type: boolean
+        default: true
+    secrets:
+      token:
+        required: true
+      personal_access_token:
+        required: true
+
+jobs:
+  audit:
+    name: "Audit Repo: ${{ inputs.repo_name }}"
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:  
+      - name: "Checkout GitHub Action"
+        uses: actions/checkout@v4
+
+      - name: "Configure Git"
+        run: |
+          git config user.name jpfulton
+          git config user.email jpatrick.fulton@gmail.com
+
+      - name: "Git Pull"
+        run: |
+          git pull
+
+      - name: Set up node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18.x
+
+      - name: "Install Node Auditor CLI"
+        run: |
+          yarn global add @jpfulton/node-license-auditor-cli
+
+      - name: "Update Yarn Version"
+        if: ${{ inputs.yarn_classic != true }}
+        run: corepack enable && yarn set version stable
+
+      - name: "Create Working and Reports Directories"
+        run: |
+          mkdir -p working/${{ inputs.repo_name }}
+          mkdir -p reports/node_projects/
+
+      - name: "Check out repo to working directory"
+        uses: actions/checkout@v4
+        with:
+          path: working/${{ inputs.repo_name }}
+          repository: ${{ inputs.repo }}
+          token: ${{ secrets.personal_access_token }}
+
+      - name: "Install Dependencies for Target Project: ${{ inputs.repo_name }}"
+        if: inputs.path == ''
+        working-directory: working/${{ inputs.repo_name }}
+        run: yarn install
+
+      - name: "Install Dependencies for Target Project in Sub-directory: ${{ inputs.repo_name }}"
+        if: inputs.path != ''
+        working-directory: working/${{ inputs.repo_name }}/${{ inputs.path }}
+        run: yarn install
+
+      - name: "Run Dependency Audit Report on Target Project"
+        if: inputs.path == ''
+        run: |
+          node-license-auditor-cli markdown ./working/${{ inputs.repo_name }} > reports/node_projects/${{ inputs.repo_name }}.md
+
+      - name: "Run Dependency Audit Report on Target Project in Sub-directory"
+        if: inputs.path != ''
+        run: |
+          node-license-auditor-cli markdown ./working/${{ inputs.repo_name }}/${{ inputs.path }} > reports/node_projects/${{ inputs.repo_name }}.md
+  
+      - name: "Commit Report"
+        continue-on-error: true
+        working-directory: reports
+        run: |
+          git pull
+          git add -A .
+          git commit -m "Generated reports [skip ci]"
+          git push
+
+
+      
+          
+
+      
+      
