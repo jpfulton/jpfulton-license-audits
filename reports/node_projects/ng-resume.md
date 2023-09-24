@@ -1,7 +1,8 @@
 # Package Dependencies Audit Report: ng-resume
 
-> Generated at Sun, 24 Sep 2023 19:13:10 GMT <br />
-> Generated using version 0.0.20 of node-license-auditor-cli.
+> Generated at Sun, 24 Sep 2023 19:55:28 GMT <br />
+> Generated using version 0.0.21 of node-license-auditor-cli.
+> Configuration source used: default
 
 ## Metadata
 | :hash: Unique Licenses | :green_circle: Whitelisted Licenses | :yellow_circle: Warned Licenses | :red_circle: Blacklisted Licenses |
