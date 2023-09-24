@@ -1,7 +1,8 @@
 # Package Dependencies Audit Report: @jpfulton/gatsby-plugin-feed-mdx
 
-> Generated at Sun, 24 Sep 2023 19:11:56 GMT <br />
-> Generated using version 0.0.20 of node-license-auditor-cli.
+> Generated at Sun, 24 Sep 2023 19:54:18 GMT <br />
+> Generated using version 0.0.21 of node-license-auditor-cli.
+> Configuration source used: default
 
 ## Metadata
 | :hash: Unique Licenses | :green_circle: Whitelisted Licenses | :yellow_circle: Warned Licenses | :red_circle: Blacklisted Licenses |
