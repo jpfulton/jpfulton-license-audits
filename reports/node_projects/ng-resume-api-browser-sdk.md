@@ -1,7 +1,7 @@
 # Package Dependencies Audit Report: @jpfulton/ng-resume-api-browser-sdk
 
-> Generated at Sun, 24 Sep 2023 16:10:47 GMT <br />
-> Generated using version 0.0.16 of node-license-auditor-cli.
+> Generated at Sun, 24 Sep 2023 16:32:34 GMT <br />
+> Generated using version 0.0.17 of node-license-auditor-cli.
 
 ## Metadata
 | :hash: Unique Licenses | :green_circle: Whitelisted Licenses | :yellow_circle: Warned Licenses | :red_circle: Blacklisted Licenses |
