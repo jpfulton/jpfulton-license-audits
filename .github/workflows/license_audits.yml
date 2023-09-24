@@ -24,7 +24,7 @@ jobs:
           echo "node-repositories-json=$JSON" >> $GITHUB_OUTPUT;
 
   audit-node-project-licenses-to-markdown:
-    name: "Audit: ${{ matrix.repository.repo_name }}"
+    name: "Audit to Markdown: ${{ matrix.repository.repo_name }}"
     needs: load-configuration
     strategy:
       fail-fast: false
@@ -42,6 +42,7 @@ jobs:
 
   audit-node-project-licenses-to-csv-headers:
     name: "Write CSV Headers"
+    needs: audit-node-project-licenses-to-markdown
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -85,11 +86,11 @@ jobs:
           git push
 
   audit-node-project-licenses-to-csv:
-    name: "Audit: ${{ matrix.repository.repo_name }}"
+    name: "Audit to CSV: ${{ matrix.repository.repo_name }}"
     needs: [audit-node-project-licenses-to-csv-headers, load-configuration]
     strategy:
       fail-fast: false
-      max-parallel: 1
+      max-parallel: 1 # Run strategy in sequence
       matrix: 
         repository: ${{ fromJson(needs.load-configuration.outputs.node-repositories) }}
     uses: ./.github/workflows/audit_node_repo_csv.yml
