@@ -1,13 +1,13 @@
 # Package Dependencies Audit Report: @jpfulton/ng-resume-api-browser-sdk
 
-> Generated at Sun, 24 Sep 2023 19:54:06 GMT <br />
-> Generated using version 0.0.21 of node-license-auditor-cli.
-> Configuration source used: default
+> Generated at Sun, 24 Sep 2023 21:22:45 GMT <br />
+> Generated using version 0.0.22 of node-license-auditor-cli. <br />
+> Configuration source used: file
 
 ## Metadata
 | :hash: Unique Licenses | :green_circle: Whitelisted Licenses | :yellow_circle: Warned Licenses | :red_circle: Blacklisted Licenses |
 |---|---|---|---|
-| 17 | 14 | 3 | 0 |
+| 17 | 16 | 1 | 0 |
 
 ## Licenses
 
@@ -24,10 +24,10 @@
 | :green_circle: | esbuild | 0.16.15 | MIT |  |  |  | ./working/ng-resume-api-browser-sdk/node_modules/esbuild/package.json | ./working/ng-resume-api-browser-sdk/node_modules/esbuild/package.json |
 | :green_circle: | follow-redirects | 1.15.2 | MIT | Ruben Verborgh <ruben@verborgh.org> (https://ruben.verborgh.org/) |  | git@github.com:follow-redirects/follow-redirects.git | ./working/ng-resume-api-browser-sdk/node_modules/follow-redirects/package.json | ./working/ng-resume-api-browser-sdk/node_modules/follow-redirects/package.json |
 | :green_circle: | form-data | 4.0.0 | MIT | Felix Geisendörfer <felix@debuggable.com> (http://debuggable.com/) |  | git://github.com/form-data/form-data.git | ./working/ng-resume-api-browser-sdk/node_modules/form-data/package.json | ./working/ng-resume-api-browser-sdk/node_modules/form-data/package.json |
-| :yellow_circle: | js-base64 | 3.7.2 | BSD-3-Clause | Dan Kogai |  |  | ./working/ng-resume-api-browser-sdk/node_modules/js-base64/package.json | ./working/ng-resume-api-browser-sdk/node_modules/js-base64/package.json |
+| :green_circle: | js-base64 | 3.7.2 | BSD-3-Clause | Dan Kogai |  |  | ./working/ng-resume-api-browser-sdk/node_modules/js-base64/package.json | ./working/ng-resume-api-browser-sdk/node_modules/js-base64/package.json |
 | :green_circle: | mime-db | 1.52.0 | MIT |  |  |  | ./working/ng-resume-api-browser-sdk/node_modules/mime-db/package.json | ./working/ng-resume-api-browser-sdk/node_modules/mime-db/package.json |
 | :green_circle: | mime-types | 2.1.35 | MIT |  |  |  | ./working/ng-resume-api-browser-sdk/node_modules/mime-types/package.json | ./working/ng-resume-api-browser-sdk/node_modules/mime-types/package.json |
 | :green_circle: | prettier | 2.7.1 | MIT | James Long |  |  | ./working/ng-resume-api-browser-sdk/node_modules/prettier/package.json | ./working/ng-resume-api-browser-sdk/node_modules/prettier/package.json |
-| :yellow_circle: | typescript | 4.6.4 | Apache-2.0 | Microsoft Corp. |  | https://github.com/Microsoft/TypeScript.git | ./working/ng-resume-api-browser-sdk/node_modules/typescript/package.json | ./working/ng-resume-api-browser-sdk/node_modules/typescript/package.json |
+| :green_circle: | typescript | 4.6.4 | Apache-2.0 | Microsoft Corp. |  | https://github.com/Microsoft/TypeScript.git | ./working/ng-resume-api-browser-sdk/node_modules/typescript/package.json | ./working/ng-resume-api-browser-sdk/node_modules/typescript/package.json |
 | :green_circle: | url-join | 4.0.1 | MIT | José F. Romaniello <jfromaniello@gmail.com> (http://joseoncode.com) |  | git://github.com/jfromaniello/url-join.git | ./working/ng-resume-api-browser-sdk/node_modules/url-join/package.json | ./working/ng-resume-api-browser-sdk/node_modules/url-join/package.json |
 
