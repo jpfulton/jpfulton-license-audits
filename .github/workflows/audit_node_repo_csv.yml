@@ -77,12 +77,12 @@ jobs:
       - name: "Run Dependency Audit Report on Target Project"
         if: inputs.path == ''
         run: |
-          node-license-auditor-cli csv --write-headers false ./working/${{ inputs.repo_name }} >> reports/node_projects/license-audit.csv
+          node-license-auditor-cli csv --no-headers ./working/${{ inputs.repo_name }} >> reports/node_projects/license-audit.csv
 
       - name: "Run Dependency Audit Report on Target Project in Sub-directory"
         if: inputs.path != ''
         run: |
-          node-license-auditor-cli csv --write-headers false ./working/${{ inputs.repo_name }}/${{ inputs.path }} >> reports/node_projects/license-audit.csv
+          node-license-auditor-cli csv --no-headers ./working/${{ inputs.repo_name }}/${{ inputs.path }} >> reports/node_projects/license-audit.csv
   
       - name: "Commit Report"
         continue-on-error: true

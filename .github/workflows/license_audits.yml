@@ -73,7 +73,7 @@ jobs:
 
       - name: "Write Headers"
         run: |
-          node-license-auditor-cli csv --write-headers true --write-data false . > reports/node_projects/license-audit.csv
+          node-license-auditor-cli csv --no-data . > reports/node_projects/license-audit.csv
     
       - name: "Commit Report"
         continue-on-error: true
