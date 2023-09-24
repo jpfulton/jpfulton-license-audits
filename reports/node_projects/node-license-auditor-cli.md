@@ -1,7 +1,7 @@
 # Package Dependencies Audit Report: @jpfulton/node-license-auditor-cli
 
-> Generated at Sat, 23 Sep 2023 20:57:09 GMT <br />
-> Generated using version 0.0.14 of node-license-auditor-cli.
+> Generated at Sun, 24 Sep 2023 16:33:02 GMT <br />
+> Generated using version 0.0.17 of node-license-auditor-cli.
 
 ## Metadata
 | :hash: Unique Licenses | :green_circle: Whitelisted Licenses | :yellow_circle: Warned Licenses | :red_circle: Blacklisted Licenses |
