@@ -1,7 +1,7 @@
 # Package Dependencies Audit Report: @jpfulton/gatsby-remark-copy-button
 
-> Generated at Sun, 24 Sep 2023 16:34:06 GMT <br />
-> Generated using version 0.0.17 of node-license-auditor-cli.
+> Generated at Sun, 24 Sep 2023 17:14:23 GMT <br />
+> Generated using version 0.0.18 of node-license-auditor-cli.
 
 ## Metadata
 | :hash: Unique Licenses | :green_circle: Whitelisted Licenses | :yellow_circle: Warned Licenses | :red_circle: Blacklisted Licenses |
