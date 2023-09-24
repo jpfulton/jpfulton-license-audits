@@ -1,7 +1,7 @@
 # Package Dependencies Audit Report: @jpfulton/net-sms-notifier-cli
 
-> Generated at Sat, 23 Sep 2023 20:57:17 GMT <br />
-> Generated using version 0.0.14 of node-license-auditor-cli.
+> Generated at Sun, 24 Sep 2023 16:11:09 GMT <br />
+> Generated using version 0.0.16 of node-license-auditor-cli.
 
 ## Metadata
 | :hash: Unique Licenses | :green_circle: Whitelisted Licenses | :yellow_circle: Warned Licenses | :red_circle: Blacklisted Licenses |
