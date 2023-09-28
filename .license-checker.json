@@ -72,6 +72,7 @@
     "BSD-3-Clause-Open-MPI",
     "BSD-3-Clause",
     "BSD-4-Clause-UC",
-    "BSD-4-Clause"
+    "BSD-4-Clause",
+    "ISC"
   ]
 }
