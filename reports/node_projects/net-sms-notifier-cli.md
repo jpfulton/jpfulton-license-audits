@@ -1,7 +1,7 @@
 # Package Dependencies Audit Report: @jpfulton/net-sms-notifier-cli
 
-> Generated at Mon, 25 Sep 2023 20:16:14 GMT <br />
-> Generated using version 0.0.25 of node-license-auditor-cli. <br />
+> Generated at Thu, 28 Sep 2023 16:49:59 GMT <br />
+> Generated using version 0.0.37 of node-license-auditor-cli. <br />
 > Configuration source used: file
 
 ## Metadata
@@ -118,8 +118,8 @@
 | :green_circle: | merge2 | 1.4.1 | MIT |  |  | git@github.com:teambition/merge2.git | ./working/net-sms-notifier-cli/node_modules/merge2/package.json | ./working/net-sms-notifier-cli/node_modules/merge2/package.json |
 | :green_circle: | micromatch | 4.0.5 | MIT | Jon Schlinkert (https://github.com/jonschlinkert) |  |  | ./working/net-sms-notifier-cli/node_modules/micromatch/package.json | ./working/net-sms-notifier-cli/node_modules/micromatch/package.json |
 | :yellow_circle: | minimatch | 3.1.2 | ISC | Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me) |  | git://github.com/isaacs/minimatch.git | ./working/net-sms-notifier-cli/node_modules/minimatch/package.json | ./working/net-sms-notifier-cli/node_modules/minimatch/package.json |
-| :green_circle: | ms | 2.1.2 | MIT |  |  |  | ./working/net-sms-notifier-cli/node_modules/ms/package.json | ./working/net-sms-notifier-cli/node_modules/ms/package.json |
 | :green_circle: | ms | 2.1.3 | MIT |  |  |  | ./working/net-sms-notifier-cli/node_modules/jsonwebtoken/node_modules/ms/package.json | ./working/net-sms-notifier-cli/node_modules/jsonwebtoken/node_modules/ms/package.json |
+| :green_circle: | ms | 2.1.2 | MIT |  |  |  | ./working/net-sms-notifier-cli/node_modules/ms/package.json | ./working/net-sms-notifier-cli/node_modules/ms/package.json |
 | :green_circle: | natural-compare | 1.4.0 | MIT | Lauri Rooden (https://github.com/litejs/natural-compare-lite) |  |  | ./working/net-sms-notifier-cli/node_modules/natural-compare/package.json | ./working/net-sms-notifier-cli/node_modules/natural-compare/package.json |
 | :green_circle: | object-inspect | 1.12.3 | MIT | James Halliday | mail@substack.net | git://github.com/inspect-js/object-inspect.git | ./working/net-sms-notifier-cli/node_modules/object-inspect/package.json | ./working/net-sms-notifier-cli/node_modules/object-inspect/package.json |
 | :yellow_circle: | once | 1.4.0 | ISC | Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/) |  | git://github.com/isaacs/once | ./working/net-sms-notifier-cli/node_modules/once/package.json | ./working/net-sms-notifier-cli/node_modules/once/package.json |
