@@ -1,13 +1,14 @@
 # Package Dependencies Audit Report: @jpfulton/ng-resume-api-browser-sdk
 
-> Generated at Thu, 28 Sep 2023 16:49:37 GMT <br />
-> Generated using version 0.0.37 of node-license-auditor-cli. <br />
+> Generated at Fri, 29 Sep 2023 00:44:46 GMT <br />
+> Generated using version 0.0.38 of node-license-auditor-cli. <br />
 > Configuration source used: file
+> Configuration source URL: .license-checker.json
 
 ## Metadata
 | :hash: Unique Licenses | :green_circle: Whitelisted Licenses | :yellow_circle: Warned Licenses | :red_circle: Blacklisted Licenses |
 |---|---|---|---|
-| 17 | 16 | 1 | 0 |
+| 17 | 17 | 0 | 0 |
 
 ## Licenses
 
@@ -16,7 +17,7 @@
 | :green_circle: | @esbuild/linux-x64 | 0.16.15 | MIT |  |  |  | ./working/ng-resume-api-browser-sdk/node_modules/@esbuild/linux-x64/package.json | ./working/ng-resume-api-browser-sdk/node_modules/@esbuild/linux-x64/package.json |
 | :green_circle: | @types/node | 17.0.33 | MIT |  |  | https://github.com/DefinitelyTyped/DefinitelyTyped.git | ./working/ng-resume-api-browser-sdk/node_modules/@types/node/package.json | ./working/ng-resume-api-browser-sdk/node_modules/@types/node/package.json |
 | :green_circle: | @types/url-join | 4.0.1 | MIT |  |  | https://github.com/DefinitelyTyped/DefinitelyTyped.git | ./working/ng-resume-api-browser-sdk/node_modules/@types/url-join/package.json | ./working/ng-resume-api-browser-sdk/node_modules/@types/url-join/package.json |
-| :yellow_circle: | @ungap/url-search-params | 0.2.2 | ISC | Andrea Giammarchi |  | git+https://github.com/ungap/url-search-params.git | ./working/ng-resume-api-browser-sdk/node_modules/@ungap/url-search-params/package.json | ./working/ng-resume-api-browser-sdk/node_modules/@ungap/url-search-params/package.json |
+| :green_circle: | @ungap/url-search-params | 0.2.2 | ISC | Andrea Giammarchi |  | git+https://github.com/ungap/url-search-params.git | ./working/ng-resume-api-browser-sdk/node_modules/@ungap/url-search-params/package.json | ./working/ng-resume-api-browser-sdk/node_modules/@ungap/url-search-params/package.json |
 | :green_circle: | asynckit | 0.4.0 | MIT | Alex Indigo <iam@alexindigo.com> |  | git+https://github.com/alexindigo/asynckit.git | ./working/ng-resume-api-browser-sdk/node_modules/asynckit/package.json | ./working/ng-resume-api-browser-sdk/node_modules/asynckit/package.json |
 | :green_circle: | axios | 0.27.2 | MIT | Matt Zabriskie |  | https://github.com/axios/axios.git | ./working/ng-resume-api-browser-sdk/node_modules/axios/package.json | ./working/ng-resume-api-browser-sdk/node_modules/axios/package.json |
 | :green_circle: | combined-stream | 1.0.8 | MIT | Felix Geisendörfer <felix@debuggable.com> (http://debuggable.com/) |  | git://github.com/felixge/node-combined-stream.git | ./working/ng-resume-api-browser-sdk/node_modules/combined-stream/package.json | ./working/ng-resume-api-browser-sdk/node_modules/combined-stream/package.json |
