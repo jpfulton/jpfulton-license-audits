@@ -1,7 +1,7 @@
 # Package Dependencies Audit Report: @jpfulton/node-license-auditor-cli
 
-> Generated at Fri, 29 Sep 2023 02:22:53 GMT <br />
-> Generated using version 0.0.39 of node-license-auditor-cli. <br />
+> Generated at Fri, 29 Sep 2023 15:43:01 GMT <br />
+> Generated using version 1.0.1 of node-license-auditor-cli. <br />
 > Configuration source used: file <br />
 > Configuration source URL: .license-checker.json
 
