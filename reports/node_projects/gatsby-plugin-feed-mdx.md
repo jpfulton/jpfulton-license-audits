@@ -1,6 +1,6 @@
 # Package Dependencies Audit Report: @jpfulton/gatsby-plugin-feed-mdx
 
-> Generated at Fri, 29 Sep 2023 15:42:45 GMT <br />
+> Generated at Tue, 10 Oct 2023 01:04:41 GMT <br />
 > Generated using version 1.0.1 of node-license-auditor-cli. <br />
 > Configuration source used: file <br />
 > Configuration source URL: .license-checker.json
