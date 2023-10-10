@@ -1,6 +1,6 @@
 # Package Dependencies Audit Report: @jpfulton/gatsby-remark-copy-button
 
-> Generated at Fri, 29 Sep 2023 15:44:04 GMT <br />
+> Generated at Tue, 10 Oct 2023 01:06:13 GMT <br />
 > Generated using version 1.0.1 of node-license-auditor-cli. <br />
 > Configuration source used: file <br />
 > Configuration source URL: .license-checker.json
@@ -702,7 +702,7 @@
 | :green_circle: | graceful-fs | 4.2.10 | ISC |  |  | https://github.com/isaacs/node-graceful-fs | ./working/gatsby-remark-copy-button/node_modules/@pnpm/network.ca-file/node_modules/graceful-fs/package.json | ./working/gatsby-remark-copy-button/node_modules/@pnpm/network.ca-file/node_modules/graceful-fs/package.json |
 | :green_circle: | graceful-fs | 4.2.11 | ISC |  |  | https://github.com/isaacs/node-graceful-fs | ./working/gatsby-remark-copy-button/node_modules/graceful-fs/package.json | ./working/gatsby-remark-copy-button/node_modules/graceful-fs/package.json |
 | :green_circle: | graphemer | 1.4.0 | MIT | Matt Davies <matt@filament.so> (https://github.com/mattpauldavies) |  | https://github.com/flmnt/graphemer.git | ./working/gatsby-remark-copy-button/node_modules/graphemer/package.json | ./working/gatsby-remark-copy-button/node_modules/graphemer/package.json |
-| :green_circle: | graphql | 16.8.0 | MIT |  |  | https://github.com/graphql/graphql-js.git | ./working/gatsby-remark-copy-button/node_modules/graphql/package.json | ./working/gatsby-remark-copy-button/node_modules/graphql/package.json |
+| :green_circle: | graphql | 16.8.1 | MIT |  |  | https://github.com/graphql/graphql-js.git | ./working/gatsby-remark-copy-button/node_modules/graphql/package.json | ./working/gatsby-remark-copy-button/node_modules/graphql/package.json |
 | :green_circle: | graphql-compose | 9.0.10 | MIT |  |  | https://github.com/graphql-compose/graphql-compose.git | ./working/gatsby-remark-copy-button/node_modules/graphql-compose/package.json | ./working/gatsby-remark-copy-button/node_modules/graphql-compose/package.json |
 | :green_circle: | graphql-http | 1.22.0 | MIT | Denis Badurina <badurinadenis@gmail.com> |  | https://github.com/graphql/graphql-http.git | ./working/gatsby-remark-copy-button/node_modules/graphql-http/package.json | ./working/gatsby-remark-copy-button/node_modules/graphql-http/package.json |
 | :green_circle: | graphql-tag | 2.12.6 | MIT |  |  | git+https://github.com/apollographql/graphql-tag.git | ./working/gatsby-remark-copy-button/node_modules/graphql-tag/package.json | ./working/gatsby-remark-copy-button/node_modules/graphql-tag/package.json |
@@ -1000,7 +1000,7 @@
 | :green_circle: | pkg-dir | 4.2.0 | MIT | Sindre Sorhus | sindresorhus@gmail.com |  | ./working/gatsby-remark-copy-button/node_modules/pkg-dir/package.json | ./working/gatsby-remark-copy-button/node_modules/pkg-dir/package.json |
 | :green_circle: | pkg-up | 3.1.0 | MIT | Sindre Sorhus | sindresorhus@gmail.com |  | ./working/gatsby-remark-copy-button/node_modules/pkg-up/package.json | ./working/gatsby-remark-copy-button/node_modules/pkg-up/package.json |
 | :green_circle: | platform | 1.3.6 | MIT | Benjamin Tan <demoneaux@gmail.com> |  |  | ./working/gatsby-remark-copy-button/node_modules/platform/package.json | ./working/gatsby-remark-copy-button/node_modules/platform/package.json |
-| :green_circle: | postcss | 8.4.29 | MIT | Andrey Sitnik <andrey@sitnik.ru> |  |  | ./working/gatsby-remark-copy-button/node_modules/postcss/package.json | ./working/gatsby-remark-copy-button/node_modules/postcss/package.json |
+| :green_circle: | postcss | 8.4.31 | MIT | Andrey Sitnik <andrey@sitnik.ru> |  |  | ./working/gatsby-remark-copy-button/node_modules/postcss/package.json | ./working/gatsby-remark-copy-button/node_modules/postcss/package.json |
 | :green_circle: | postcss-calc | 8.2.4 | MIT | Andy Jansson |  |  | ./working/gatsby-remark-copy-button/node_modules/postcss-calc/package.json | ./working/gatsby-remark-copy-button/node_modules/postcss-calc/package.json |
 | :green_circle: | postcss-colormin | 5.3.1 | MIT | Ben Briggs | beneb.info@gmail.com |  | ./working/gatsby-remark-copy-button/node_modules/postcss-colormin/package.json | ./working/gatsby-remark-copy-button/node_modules/postcss-colormin/package.json |
 | :green_circle: | postcss-convert-values | 5.1.3 | MIT | Ben Briggs | beneb.info@gmail.com |  | ./working/gatsby-remark-copy-button/node_modules/postcss-convert-values/package.json | ./working/gatsby-remark-copy-button/node_modules/postcss-convert-values/package.json |
