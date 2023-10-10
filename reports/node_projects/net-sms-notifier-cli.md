@@ -1,7 +1,7 @@
 # Package Dependencies Audit Report: @jpfulton/net-sms-notifier-cli
 
-> Generated at Tue, 10 Oct 2023 01:05:00 GMT <br />
-> Generated using version 1.0.1 of node-license-auditor-cli. <br />
+> Generated at Tue, 10 Oct 2023 20:44:50 GMT <br />
+> Generated using version 1.0.2 of node-license-auditor-cli. <br />
 > Configuration source used: file <br />
 > Configuration source URL: .license-checker.json
 
@@ -14,6 +14,8 @@
 
 |  | NAME | VERSION | LICENSE | PUBLISHER | EMAIL | REPOSITORY | MODULE PATH | LICENSE PATH |
 |---|---|---|---|---|---|---|---|---|
+| :yellow_circle: | argparse | 2.0.1 | Python-2.0 |  |  |  | ./working/net-sms-notifier-cli/node_modules/argparse/package.json | ./working/net-sms-notifier-cli/node_modules/argparse/package.json |
+| :yellow_circle: | type-fest | 0.20.2 | (MIT OR CC0-1.0) | Sindre Sorhus | sindresorhus@gmail.com |  | ./working/net-sms-notifier-cli/node_modules/type-fest/package.json | ./working/net-sms-notifier-cli/node_modules/type-fest/package.json |
 | :green_circle: | @aashutoshrathi/word-wrap | 1.2.6 | MIT | Jon Schlinkert (https://github.com/jonschlinkert) |  | git+https://github.com/aashutoshrathi/word-wrap.git | ./working/net-sms-notifier-cli/node_modules/@aashutoshrathi/word-wrap/package.json | ./working/net-sms-notifier-cli/node_modules/@aashutoshrathi/word-wrap/package.json |
 | :green_circle: | @eslint-community/eslint-utils | 4.4.0 | MIT | Toru Nagashima |  | https://github.com/eslint-community/eslint-utils | ./working/net-sms-notifier-cli/node_modules/@eslint-community/eslint-utils/package.json | ./working/net-sms-notifier-cli/node_modules/@eslint-community/eslint-utils/package.json |
 | :green_circle: | @eslint-community/regexpp | 4.6.2 | MIT | Toru Nagashima |  | https://github.com/eslint-community/regexpp | ./working/net-sms-notifier-cli/node_modules/@eslint-community/regexpp/package.json | ./working/net-sms-notifier-cli/node_modules/@eslint-community/regexpp/package.json |
@@ -40,7 +42,6 @@
 | :green_circle: | ajv | 6.12.6 | MIT | Evgeny Poberezkin |  | https://github.com/ajv-validator/ajv.git | ./working/net-sms-notifier-cli/node_modules/ajv/package.json | ./working/net-sms-notifier-cli/node_modules/ajv/package.json |
 | :green_circle: | ansi-regex | 5.0.1 | MIT | Sindre Sorhus | sindresorhus@gmail.com |  | ./working/net-sms-notifier-cli/node_modules/ansi-regex/package.json | ./working/net-sms-notifier-cli/node_modules/ansi-regex/package.json |
 | :green_circle: | ansi-styles | 4.3.0 | MIT | Sindre Sorhus | sindresorhus@gmail.com |  | ./working/net-sms-notifier-cli/node_modules/ansi-styles/package.json | ./working/net-sms-notifier-cli/node_modules/ansi-styles/package.json |
-| :yellow_circle: | argparse | 2.0.1 | Python-2.0 |  |  |  | ./working/net-sms-notifier-cli/node_modules/argparse/package.json | ./working/net-sms-notifier-cli/node_modules/argparse/package.json |
 | :green_circle: | array-union | 2.1.0 | MIT | Sindre Sorhus | sindresorhus@gmail.com |  | ./working/net-sms-notifier-cli/node_modules/array-union/package.json | ./working/net-sms-notifier-cli/node_modules/array-union/package.json |
 | :green_circle: | axios | 0.26.1 | MIT | Matt Zabriskie |  | https://github.com/axios/axios.git | ./working/net-sms-notifier-cli/node_modules/axios/package.json | ./working/net-sms-notifier-cli/node_modules/axios/package.json |
 | :green_circle: | balanced-match | 1.0.2 | MIT | Julian Gruber | mail@juliangruber.com | git://github.com/juliangruber/balanced-match.git | ./working/net-sms-notifier-cli/node_modules/balanced-match/package.json | ./working/net-sms-notifier-cli/node_modules/balanced-match/package.json |
@@ -158,7 +159,6 @@
 | :green_circle: | ts-api-utils | 1.0.1 | MIT | Josh Goldberg <npm@joshuakgoldberg.com> |  | https://github.com/JoshuaKGoldberg/ts-api-utils | ./working/net-sms-notifier-cli/node_modules/ts-api-utils/package.json | ./working/net-sms-notifier-cli/node_modules/ts-api-utils/package.json |
 | :green_circle: | twilio | 4.16.0 | MIT | API Team <api@twilio.com> |  | https://github.com/twilio/twilio-node.git | ./working/net-sms-notifier-cli/node_modules/twilio/package.json | ./working/net-sms-notifier-cli/node_modules/twilio/package.json |
 | :green_circle: | type-check | 0.4.0 | MIT | George Zahariev <z@georgezahariev.com> |  | git://github.com/gkz/type-check.git | ./working/net-sms-notifier-cli/node_modules/type-check/package.json | ./working/net-sms-notifier-cli/node_modules/type-check/package.json |
-| :yellow_circle: | type-fest | 0.20.2 | (MIT OR CC0-1.0) | Sindre Sorhus | sindresorhus@gmail.com |  | ./working/net-sms-notifier-cli/node_modules/type-fest/package.json | ./working/net-sms-notifier-cli/node_modules/type-fest/package.json |
 | :green_circle: | typescript | 5.2.2 | Apache-2.0 | Microsoft Corp. |  | https://github.com/Microsoft/TypeScript.git | ./working/net-sms-notifier-cli/node_modules/typescript/package.json | ./working/net-sms-notifier-cli/node_modules/typescript/package.json |
 | :green_circle: | uri-js | 4.4.1 | BSD-2-Clause | Gary Court <gary.court@gmail.com> |  | http://github.com/garycourt/uri-js | ./working/net-sms-notifier-cli/node_modules/uri-js/package.json | ./working/net-sms-notifier-cli/node_modules/uri-js/package.json |
 | :green_circle: | url-parse | 1.5.10 | MIT | Arnout Kazemier |  | https://github.com/unshiftio/url-parse.git | ./working/net-sms-notifier-cli/node_modules/url-parse/package.json | ./working/net-sms-notifier-cli/node_modules/url-parse/package.json |
