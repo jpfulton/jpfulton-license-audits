@@ -1,7 +1,7 @@
 # Package Dependencies Audit Report: @jpfulton/gatsby-plugin-feed-mdx
 
-> Generated at Tue, 10 Oct 2023 01:04:41 GMT <br />
-> Generated using version 1.0.1 of node-license-auditor-cli. <br />
+> Generated at Tue, 10 Oct 2023 20:44:37 GMT <br />
+> Generated using version 1.0.2 of node-license-auditor-cli. <br />
 > Configuration source used: file <br />
 > Configuration source URL: .license-checker.json
 
@@ -14,6 +14,9 @@
 
 |  | NAME | VERSION | LICENSE | PUBLISHER | EMAIL | REPOSITORY | MODULE PATH | LICENSE PATH |
 |---|---|---|---|---|---|---|---|---|
+| :yellow_circle: | caniuse-lite | 1.0.30001512 | CC-BY-4.0 | Ben Briggs | beneb.info@gmail.com |  | ./working/gatsby-plugin-feed-mdx/node_modules/caniuse-lite/package.json | ./working/gatsby-plugin-feed-mdx/node_modules/caniuse-lite/package.json |
+| :yellow_circle: | expand-template | 2.0.3 | (MIT OR WTFPL) | LM <ralphtheninja@riseup.net> |  | https://github.com/ralphtheninja/expand-template.git | ./working/gatsby-plugin-feed-mdx/node_modules/expand-template/package.json | ./working/gatsby-plugin-feed-mdx/node_modules/expand-template/package.json |
+| :yellow_circle: | rc | 1.2.8 | (BSD-2-Clause OR MIT OR Apache-2.0) | Dominic Tarr <dominic.tarr@gmail.com> (dominictarr.com) |  | https://github.com/dominictarr/rc.git | ./working/gatsby-plugin-feed-mdx/node_modules/rc/package.json | ./working/gatsby-plugin-feed-mdx/node_modules/rc/package.json |
 | :green_circle: | @ampproject/remapping | 2.2.1 | Apache-2.0 | Justin Ridgewell <jridgewell@google.com> |  | git+https://github.com/ampproject/remapping.git | ./working/gatsby-plugin-feed-mdx/node_modules/@ampproject/remapping/package.json | ./working/gatsby-plugin-feed-mdx/node_modules/@ampproject/remapping/package.json |
 | :green_circle: | @babel/cli | 7.22.6 | MIT | The Babel Team (https://babel.dev/team) |  | https://github.com/babel/babel.git | ./working/gatsby-plugin-feed-mdx/node_modules/@babel/cli/package.json | ./working/gatsby-plugin-feed-mdx/node_modules/@babel/cli/package.json |
 | :green_circle: | @babel/code-frame | 7.22.5 | MIT | The Babel Team (https://babel.dev/team) |  | https://github.com/babel/babel.git | ./working/gatsby-plugin-feed-mdx/node_modules/@babel/code-frame/package.json | ./working/gatsby-plugin-feed-mdx/node_modules/@babel/code-frame/package.json |
@@ -190,7 +193,6 @@
 | :green_circle: | buffer | 5.7.1 | MIT | Feross Aboukhadijeh | feross@feross.org | git://github.com/feross/buffer.git | ./working/gatsby-plugin-feed-mdx/node_modules/buffer/package.json | ./working/gatsby-plugin-feed-mdx/node_modules/buffer/package.json |
 | :green_circle: | cacheable-lookup | 5.0.4 | MIT | Szymon Marczak |  | git+https://github.com/szmarczak/cacheable-lookup.git | ./working/gatsby-plugin-feed-mdx/node_modules/cacheable-lookup/package.json | ./working/gatsby-plugin-feed-mdx/node_modules/cacheable-lookup/package.json |
 | :green_circle: | cacheable-request | 7.0.4 | MIT | Luke Childs <lukechilds123@gmail.com> (http://lukechilds.co.uk) |  |  | ./working/gatsby-plugin-feed-mdx/node_modules/cacheable-request/package.json | ./working/gatsby-plugin-feed-mdx/node_modules/cacheable-request/package.json |
-| :yellow_circle: | caniuse-lite | 1.0.30001512 | CC-BY-4.0 | Ben Briggs | beneb.info@gmail.com |  | ./working/gatsby-plugin-feed-mdx/node_modules/caniuse-lite/package.json | ./working/gatsby-plugin-feed-mdx/node_modules/caniuse-lite/package.json |
 | :green_circle: | chalk | 2.4.2 | MIT |  |  |  | ./working/gatsby-plugin-feed-mdx/node_modules/chalk/package.json | ./working/gatsby-plugin-feed-mdx/node_modules/chalk/package.json |
 | :green_circle: | chokidar | 3.5.1 | MIT | Paul Miller (https://paulmillr.com) |  | git+https://github.com/paulmillr/chokidar.git | ./working/gatsby-plugin-feed-mdx/node_modules/chokidar/package.json | ./working/gatsby-plugin-feed-mdx/node_modules/chokidar/package.json |
 | :green_circle: | chownr | 1.1.4 | ISC | Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/) |  | git://github.com/isaacs/chownr.git | ./working/gatsby-plugin-feed-mdx/node_modules/chownr/package.json | ./working/gatsby-plugin-feed-mdx/node_modules/chownr/package.json |
@@ -225,7 +227,6 @@
 | :green_circle: | escalade | 3.1.1 | MIT | Luke Edwards | luke.edwards05@gmail.com |  | ./working/gatsby-plugin-feed-mdx/node_modules/escalade/package.json | ./working/gatsby-plugin-feed-mdx/node_modules/escalade/package.json |
 | :green_circle: | escape-string-regexp | 1.0.5 | MIT | Sindre Sorhus | sindresorhus@gmail.com |  | ./working/gatsby-plugin-feed-mdx/node_modules/escape-string-regexp/package.json | ./working/gatsby-plugin-feed-mdx/node_modules/escape-string-regexp/package.json |
 | :green_circle: | esutils | 2.0.3 | BSD-2-Clause |  |  | http://github.com/estools/esutils.git | ./working/gatsby-plugin-feed-mdx/node_modules/esutils/package.json | ./working/gatsby-plugin-feed-mdx/node_modules/esutils/package.json |
-| :yellow_circle: | expand-template | 2.0.3 | (MIT OR WTFPL) | LM <ralphtheninja@riseup.net> |  | https://github.com/ralphtheninja/expand-template.git | ./working/gatsby-plugin-feed-mdx/node_modules/expand-template/package.json | ./working/gatsby-plugin-feed-mdx/node_modules/expand-template/package.json |
 | :green_circle: | fastq | 1.15.0 | ISC | Matteo Collina <hello@matteocollina.com> |  | git+https://github.com/mcollina/fastq.git | ./working/gatsby-plugin-feed-mdx/node_modules/fastq/package.json | ./working/gatsby-plugin-feed-mdx/node_modules/fastq/package.json |
 | :green_circle: | file-type | 16.5.4 | MIT | Sindre Sorhus | sindresorhus@gmail.com |  | ./working/gatsby-plugin-feed-mdx/node_modules/file-type/package.json | ./working/gatsby-plugin-feed-mdx/node_modules/file-type/package.json |
 | :green_circle: | fill-range | 7.0.1 | MIT | Jon Schlinkert (https://github.com/jonschlinkert) |  |  | ./working/gatsby-plugin-feed-mdx/node_modules/fill-range/package.json | ./working/gatsby-plugin-feed-mdx/node_modules/fill-range/package.json |
@@ -320,7 +321,6 @@
 | :green_circle: | proper-lockfile | 4.1.2 | MIT | André Cruz <andre@moxy.studio> |  | git@github.com:moxystudio/node-proper-lockfile.git | ./working/gatsby-plugin-feed-mdx/node_modules/proper-lockfile/package.json | ./working/gatsby-plugin-feed-mdx/node_modules/proper-lockfile/package.json |
 | :green_circle: | pump | 3.0.0 | MIT | Mathias Buus Madsen <mathiasbuus@gmail.com> |  |  | ./working/gatsby-plugin-feed-mdx/node_modules/pump/package.json | ./working/gatsby-plugin-feed-mdx/node_modules/pump/package.json |
 | :green_circle: | quick-lru | 5.1.1 | MIT | Sindre Sorhus | sindresorhus@gmail.com |  | ./working/gatsby-plugin-feed-mdx/node_modules/quick-lru/package.json | ./working/gatsby-plugin-feed-mdx/node_modules/quick-lru/package.json |
-| :yellow_circle: | rc | 1.2.8 | (BSD-2-Clause OR MIT OR Apache-2.0) | Dominic Tarr <dominic.tarr@gmail.com> (dominictarr.com) |  | https://github.com/dominictarr/rc.git | ./working/gatsby-plugin-feed-mdx/node_modules/rc/package.json | ./working/gatsby-plugin-feed-mdx/node_modules/rc/package.json |
 | :green_circle: | readable-stream | 3.6.2 | MIT |  |  | git://github.com/nodejs/readable-stream | ./working/gatsby-plugin-feed-mdx/node_modules/readable-stream/package.json | ./working/gatsby-plugin-feed-mdx/node_modules/readable-stream/package.json |
 | :green_circle: | readable-web-to-node-stream | 3.0.2 | MIT | Borewit |  |  | ./working/gatsby-plugin-feed-mdx/node_modules/readable-web-to-node-stream/package.json | ./working/gatsby-plugin-feed-mdx/node_modules/readable-web-to-node-stream/package.json |
 | :green_circle: | readdirp | 3.5.0 | MIT | Thorsten Lorenz <thlorenz@gmx.de> (thlorenz.com) |  | git://github.com/paulmillr/readdirp.git | ./working/gatsby-plugin-feed-mdx/node_modules/readdirp/package.json | ./working/gatsby-plugin-feed-mdx/node_modules/readdirp/package.json |
