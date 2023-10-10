@@ -1,7 +1,7 @@
 # Package Dependencies Audit Report: @jpfulton/node-license-auditor-cli
 
-> Generated at Tue, 10 Oct 2023 01:05:02 GMT <br />
-> Generated using version 1.0.1 of node-license-auditor-cli. <br />
+> Generated at Tue, 10 Oct 2023 20:45:07 GMT <br />
+> Generated using version 1.0.2 of node-license-auditor-cli. <br />
 > Configuration source used: file <br />
 > Configuration source URL: .license-checker.json
 
@@ -14,6 +14,10 @@
 
 |  | NAME | VERSION | LICENSE | PUBLISHER | EMAIL | REPOSITORY | MODULE PATH | LICENSE PATH |
 |---|---|---|---|---|---|---|---|---|
+| :yellow_circle: | argparse | 2.0.1 | Python-2.0 |  |  |  | ./working/node-license-auditor-cli/node_modules/argparse/package.json | ./working/node-license-auditor-cli/node_modules/argparse/package.json |
+| :yellow_circle: | caniuse-lite | 1.0.30001538 | CC-BY-4.0 | Ben Briggs | beneb.info@gmail.com |  | ./working/node-license-auditor-cli/node_modules/caniuse-lite/package.json | ./working/node-license-auditor-cli/node_modules/caniuse-lite/package.json |
+| :yellow_circle: | type-fest | 0.20.2 | (MIT OR CC0-1.0) | Sindre Sorhus | sindresorhus@gmail.com |  | ./working/node-license-auditor-cli/node_modules/type-fest/package.json | ./working/node-license-auditor-cli/node_modules/type-fest/package.json |
+| :yellow_circle: | type-fest | 0.21.3 | (MIT OR CC0-1.0) | Sindre Sorhus | sindresorhus@gmail.com |  | ./working/node-license-auditor-cli/node_modules/ansi-escapes/node_modules/type-fest/package.json | ./working/node-license-auditor-cli/node_modules/ansi-escapes/node_modules/type-fest/package.json |
 | :green_circle: | @aashutoshrathi/word-wrap | 1.2.6 | MIT | Jon Schlinkert (https://github.com/jonschlinkert) |  | git+https://github.com/aashutoshrathi/word-wrap.git | ./working/node-license-auditor-cli/node_modules/@aashutoshrathi/word-wrap/package.json | ./working/node-license-auditor-cli/node_modules/@aashutoshrathi/word-wrap/package.json |
 | :green_circle: | @ampproject/remapping | 2.2.1 | Apache-2.0 | Justin Ridgewell <jridgewell@google.com> |  | git+https://github.com/ampproject/remapping.git | ./working/node-license-auditor-cli/node_modules/@ampproject/remapping/package.json | ./working/node-license-auditor-cli/node_modules/@ampproject/remapping/package.json |
 | :green_circle: | @babel/cli | 7.23.0 | MIT | The Babel Team (https://babel.dev/team) |  | https://github.com/babel/babel.git | ./working/node-license-auditor-cli/node_modules/@babel/cli/package.json | ./working/node-license-auditor-cli/node_modules/@babel/cli/package.json |
@@ -228,7 +232,6 @@
 | :green_circle: | anymatch | 3.1.3 | ISC | Elan Shanker |  | https://github.com/micromatch/anymatch | ./working/node-license-auditor-cli/node_modules/anymatch/package.json | ./working/node-license-auditor-cli/node_modules/anymatch/package.json |
 | :green_circle: | arg | 4.1.3 | MIT | Josh Junon <junon@zeit.co> |  |  | ./working/node-license-auditor-cli/node_modules/arg/package.json | ./working/node-license-auditor-cli/node_modules/arg/package.json |
 | :green_circle: | argparse | 1.0.10 | MIT |  |  |  | ./working/node-license-auditor-cli/node_modules/@istanbuljs/load-nyc-config/node_modules/argparse/package.json | ./working/node-license-auditor-cli/node_modules/@istanbuljs/load-nyc-config/node_modules/argparse/package.json |
-| :yellow_circle: | argparse | 2.0.1 | Python-2.0 |  |  |  | ./working/node-license-auditor-cli/node_modules/argparse/package.json | ./working/node-license-auditor-cli/node_modules/argparse/package.json |
 | :green_circle: | array-buffer-byte-length | 1.0.0 | MIT | Jordan Harband <ljharb@gmail.com> |  | git+https://github.com/inspect-js/array-buffer-byte-length.git | ./working/node-license-auditor-cli/node_modules/array-buffer-byte-length/package.json | ./working/node-license-auditor-cli/node_modules/array-buffer-byte-length/package.json |
 | :green_circle: | array-union | 2.1.0 | MIT | Sindre Sorhus | sindresorhus@gmail.com |  | ./working/node-license-auditor-cli/node_modules/array-union/package.json | ./working/node-license-auditor-cli/node_modules/array-union/package.json |
 | :green_circle: | async-retry | 1.2.3 | MIT |  |  |  | ./working/node-license-auditor-cli/node_modules/async-retry/package.json | ./working/node-license-auditor-cli/node_modules/async-retry/package.json |
@@ -259,7 +262,6 @@
 | :green_circle: | callsites | 3.1.0 | MIT | Sindre Sorhus | sindresorhus@gmail.com |  | ./working/node-license-auditor-cli/node_modules/callsites/package.json | ./working/node-license-auditor-cli/node_modules/callsites/package.json |
 | :green_circle: | camelcase | 6.3.0 | MIT | Sindre Sorhus | sindresorhus@gmail.com |  | ./working/node-license-auditor-cli/node_modules/jest-validate/node_modules/camelcase/package.json | ./working/node-license-auditor-cli/node_modules/jest-validate/node_modules/camelcase/package.json |
 | :green_circle: | camelcase | 5.3.1 | MIT | Sindre Sorhus | sindresorhus@gmail.com |  | ./working/node-license-auditor-cli/node_modules/camelcase/package.json | ./working/node-license-auditor-cli/node_modules/camelcase/package.json |
-| :yellow_circle: | caniuse-lite | 1.0.30001538 | CC-BY-4.0 | Ben Briggs | beneb.info@gmail.com |  | ./working/node-license-auditor-cli/node_modules/caniuse-lite/package.json | ./working/node-license-auditor-cli/node_modules/caniuse-lite/package.json |
 | :green_circle: | chalk | 2.4.2 | MIT |  |  |  | ./working/node-license-auditor-cli/node_modules/@babel/code-frame/node_modules/chalk/package.json | ./working/node-license-auditor-cli/node_modules/@babel/code-frame/node_modules/chalk/package.json |
 | :green_circle: | chalk | 4.1.2 | MIT |  |  |  | ./working/node-license-auditor-cli/node_modules/chalk/package.json | ./working/node-license-auditor-cli/node_modules/chalk/package.json |
 | :green_circle: | char-regex | 1.0.2 | MIT | Richie Bendall <richiebendall@gmail.com> |  |  | ./working/node-license-auditor-cli/node_modules/char-regex/package.json | ./working/node-license-auditor-cli/node_modules/char-regex/package.json |
@@ -632,8 +634,6 @@
 | :green_circle: | ts-node | 10.9.1 | MIT | Blake Embrey | hello@blakeembrey.com | git://github.com/TypeStrong/ts-node.git | ./working/node-license-auditor-cli/node_modules/ts-node/package.json | ./working/node-license-auditor-cli/node_modules/ts-node/package.json |
 | :green_circle: | type-check | 0.4.0 | MIT | George Zahariev <z@georgezahariev.com> |  | git://github.com/gkz/type-check.git | ./working/node-license-auditor-cli/node_modules/type-check/package.json | ./working/node-license-auditor-cli/node_modules/type-check/package.json |
 | :green_circle: | type-detect | 4.0.8 | MIT | Jake Luer <jake@alogicalparadox.com> (http://alogicalparadox.com) |  | git+ssh://git@github.com/chaijs/type-detect.git | ./working/node-license-auditor-cli/node_modules/type-detect/package.json | ./working/node-license-auditor-cli/node_modules/type-detect/package.json |
-| :yellow_circle: | type-fest | 0.20.2 | (MIT OR CC0-1.0) | Sindre Sorhus | sindresorhus@gmail.com |  | ./working/node-license-auditor-cli/node_modules/type-fest/package.json | ./working/node-license-auditor-cli/node_modules/type-fest/package.json |
-| :yellow_circle: | type-fest | 0.21.3 | (MIT OR CC0-1.0) | Sindre Sorhus | sindresorhus@gmail.com |  | ./working/node-license-auditor-cli/node_modules/ansi-escapes/node_modules/type-fest/package.json | ./working/node-license-auditor-cli/node_modules/ansi-escapes/node_modules/type-fest/package.json |
 | :green_circle: | typed-array-buffer | 1.0.0 | MIT | Jordan Harband <ljharb@gmail.com> |  | git+https://github.com/ljharb/typed-array-buffer.git | ./working/node-license-auditor-cli/node_modules/typed-array-buffer/package.json | ./working/node-license-auditor-cli/node_modules/typed-array-buffer/package.json |
 | :green_circle: | typed-array-byte-length | 1.0.0 | MIT | Jordan Harband <ljharb@gmail.com> |  | git+https://github.com/inspect-js/typed-array-byte-length.git | ./working/node-license-auditor-cli/node_modules/typed-array-byte-length/package.json | ./working/node-license-auditor-cli/node_modules/typed-array-byte-length/package.json |
 | :green_circle: | typed-array-byte-offset | 1.0.0 | MIT | Jordan Harband <ljharb@gmail.com> |  | git+https://github.com/inspect-js/typed-array-byte-offset.git | ./working/node-license-auditor-cli/node_modules/typed-array-byte-offset/package.json | ./working/node-license-auditor-cli/node_modules/typed-array-byte-offset/package.json |
