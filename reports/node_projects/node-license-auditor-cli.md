@@ -1,14 +1,14 @@
 # Package Dependencies Audit Report: @jpfulton/node-license-auditor-cli
 
-> Generated at Tue, 10 Oct 2023 20:45:07 GMT <br />
-> Generated using version 1.0.2 of node-license-auditor-cli. <br />
+> Generated at Fri, 13 Oct 2023 00:47:00 GMT <br />
+> Generated using version 0.0.2 of node-license-auditor-cli. <br />
 > Configuration source used: file <br />
 > Configuration source URL: .license-checker.json
 
 ## Metadata
 | :hash: Unique Licenses | :green_circle: Whitelisted Licenses | :yellow_circle: Warned Licenses | :red_circle: Blacklisted Licenses |
 |---|---|---|---|
-| 654 | 650 | 4 | 0 |
+| 653 | 649 | 4 | 0 |
 
 ## Licenses
 
@@ -161,6 +161,7 @@
 | :green_circle: | @jest/source-map | 29.6.3 | MIT |  |  | https://github.com/jestjs/jest.git | ./working/node-license-auditor-cli/node_modules/@jest/source-map/package.json | ./working/node-license-auditor-cli/node_modules/@jest/source-map/package.json |
 | :green_circle: | @jest/transform | 29.7.0 | MIT |  |  | https://github.com/jestjs/jest.git | ./working/node-license-auditor-cli/node_modules/@jest/transform/package.json | ./working/node-license-auditor-cli/node_modules/@jest/transform/package.json |
 | :green_circle: | @jest/types | 29.6.3 | MIT |  |  | https://github.com/jestjs/jest.git | ./working/node-license-auditor-cli/node_modules/@jest/types/package.json | ./working/node-license-auditor-cli/node_modules/@jest/types/package.json |
+| :green_circle: | @jpfulton/license-auditor-common | 0.0.2 | MIT | J. Patrick Fulton <jpatrick.fulton@gmail.com> |  | https://github.com/jpfulton/license-auditor-common.git | ./working/node-license-auditor-cli/node_modules/@jpfulton/license-auditor-common/package.json | ./working/node-license-auditor-cli/node_modules/@jpfulton/license-auditor-common/package.json |
 | :green_circle: | @jridgewell/gen-mapping | 0.3.3 | MIT | Justin Ridgewell <justin@ridgewell.name> |  |  | ./working/node-license-auditor-cli/node_modules/@jridgewell/gen-mapping/package.json | ./working/node-license-auditor-cli/node_modules/@jridgewell/gen-mapping/package.json |
 | :green_circle: | @jridgewell/resolve-uri | 3.1.1 | MIT | Justin Ridgewell <justin@ridgewell.name> |  |  | ./working/node-license-auditor-cli/node_modules/@jridgewell/resolve-uri/package.json | ./working/node-license-auditor-cli/node_modules/@jridgewell/resolve-uri/package.json |
 | :green_circle: | @jridgewell/set-array | 1.1.2 | MIT | Justin Ridgewell <justin@ridgewell.name> |  |  | ./working/node-license-auditor-cli/node_modules/@jridgewell/set-array/package.json | ./working/node-license-auditor-cli/node_modules/@jridgewell/set-array/package.json |
@@ -348,7 +349,6 @@
 | :green_circle: | fastq | 1.15.0 | ISC | Matteo Collina <hello@matteocollina.com> |  | git+https://github.com/mcollina/fastq.git | ./working/node-license-auditor-cli/node_modules/fastq/package.json | ./working/node-license-auditor-cli/node_modules/fastq/package.json |
 | :green_circle: | fb-watchman | 2.0.2 | Apache-2.0 | Wez Furlong <wez@fb.com> (http://wezfurlong.org) |  | git@github.com:facebook/watchman.git | ./working/node-license-auditor-cli/node_modules/fb-watchman/package.json | ./working/node-license-auditor-cli/node_modules/fb-watchman/package.json |
 | :green_circle: | file-entry-cache | 6.0.1 | MIT | Roy Riojas |  |  | ./working/node-license-auditor-cli/node_modules/file-entry-cache/package.json | ./working/node-license-auditor-cli/node_modules/file-entry-cache/package.json |
-| :green_circle: | filedirname | 2.7.0 | MIT | 2020+ Benjamin Lupton <b@lupton.cc> (https://balupton.com) |  | https://github.com/bevry/filedirname.git | ./working/node-license-auditor-cli/node_modules/filedirname/package.json | ./working/node-license-auditor-cli/node_modules/filedirname/package.json |
 | :green_circle: | fill-range | 7.0.1 | MIT | Jon Schlinkert (https://github.com/jonschlinkert) |  |  | ./working/node-license-auditor-cli/node_modules/fill-range/package.json | ./working/node-license-auditor-cli/node_modules/fill-range/package.json |
 | :green_circle: | filter-obj | 1.1.0 | MIT | Sindre Sorhus | sindresorhus@gmail.com |  | ./working/node-license-auditor-cli/node_modules/filter-obj/package.json | ./working/node-license-auditor-cli/node_modules/filter-obj/package.json |
 | :green_circle: | find-cache-dir | 2.1.0 | MIT |  |  |  | ./working/node-license-auditor-cli/node_modules/find-cache-dir/package.json | ./working/node-license-auditor-cli/node_modules/find-cache-dir/package.json |
@@ -365,7 +365,6 @@
 | :green_circle: | functions-have-names | 1.2.3 | MIT | Jordan Harband <ljharb@gmail.com> |  | git+https://github.com/inspect-js/functions-have-names.git | ./working/node-license-auditor-cli/node_modules/functions-have-names/package.json | ./working/node-license-auditor-cli/node_modules/functions-have-names/package.json |
 | :green_circle: | gensync | 1.0.0-beta.2 | MIT | Logan Smyth <loganfsmyth@gmail.com> |  | https://github.com/loganfsmyth/gensync.git | ./working/node-license-auditor-cli/node_modules/gensync/package.json | ./working/node-license-auditor-cli/node_modules/gensync/package.json |
 | :green_circle: | get-caller-file | 2.0.5 | ISC | Stefan Penner |  | git+https://github.com/stefanpenner/get-caller-file.git | ./working/node-license-auditor-cli/node_modules/get-caller-file/package.json | ./working/node-license-auditor-cli/node_modules/get-caller-file/package.json |
-| :green_circle: | get-current-line | 6.6.0 | MIT | 2011+ Benjamin Lupton <b@lupton.cc> (https://balupton.com) |  | https://github.com/bevry/get-current-line.git | ./working/node-license-auditor-cli/node_modules/get-current-line/package.json | ./working/node-license-auditor-cli/node_modules/get-current-line/package.json |
 | :green_circle: | get-intrinsic | 1.2.1 | MIT | Jordan Harband <ljharb@gmail.com> |  | git+https://github.com/ljharb/get-intrinsic.git | ./working/node-license-auditor-cli/node_modules/get-intrinsic/package.json | ./working/node-license-auditor-cli/node_modules/get-intrinsic/package.json |
 | :green_circle: | get-package-type | 0.1.0 | MIT | Corey Farrell |  | git+https://github.com/cfware/get-package-type.git | ./working/node-license-auditor-cli/node_modules/get-package-type/package.json | ./working/node-license-auditor-cli/node_modules/get-package-type/package.json |
 | :green_circle: | get-stdin | 6.0.0 | MIT | Sindre Sorhus | sindresorhus@gmail.com |  | ./working/node-license-auditor-cli/node_modules/get-stdin/package.json | ./working/node-license-auditor-cli/node_modules/get-stdin/package.json |
