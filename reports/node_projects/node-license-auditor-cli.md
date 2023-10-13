@@ -1,7 +1,7 @@
 # Package Dependencies Audit Report: @jpfulton/node-license-auditor-cli
 
-> Generated at Fri, 13 Oct 2023 00:47:00 GMT <br />
-> Generated using version 0.0.2 of node-license-auditor-cli. <br />
+> Generated at Fri, 13 Oct 2023 02:27:52 GMT <br />
+> Generated using version UNKNOWN of node-license-auditor-cli. <br />
 > Configuration source used: file <br />
 > Configuration source URL: .license-checker.json
 
@@ -161,7 +161,7 @@
 | :green_circle: | @jest/source-map | 29.6.3 | MIT |  |  | https://github.com/jestjs/jest.git | ./working/node-license-auditor-cli/node_modules/@jest/source-map/package.json | ./working/node-license-auditor-cli/node_modules/@jest/source-map/package.json |
 | :green_circle: | @jest/transform | 29.7.0 | MIT |  |  | https://github.com/jestjs/jest.git | ./working/node-license-auditor-cli/node_modules/@jest/transform/package.json | ./working/node-license-auditor-cli/node_modules/@jest/transform/package.json |
 | :green_circle: | @jest/types | 29.6.3 | MIT |  |  | https://github.com/jestjs/jest.git | ./working/node-license-auditor-cli/node_modules/@jest/types/package.json | ./working/node-license-auditor-cli/node_modules/@jest/types/package.json |
-| :green_circle: | @jpfulton/license-auditor-common | 0.0.2 | MIT | J. Patrick Fulton <jpatrick.fulton@gmail.com> |  | https://github.com/jpfulton/license-auditor-common.git | ./working/node-license-auditor-cli/node_modules/@jpfulton/license-auditor-common/package.json | ./working/node-license-auditor-cli/node_modules/@jpfulton/license-auditor-common/package.json |
+| :green_circle: | @jpfulton/license-auditor-common | 0.0.5 | MIT | J. Patrick Fulton <jpatrick.fulton@gmail.com> |  | https://github.com/jpfulton/license-auditor-common.git | ./working/node-license-auditor-cli/node_modules/@jpfulton/license-auditor-common/package.json | ./working/node-license-auditor-cli/node_modules/@jpfulton/license-auditor-common/package.json |
 | :green_circle: | @jridgewell/gen-mapping | 0.3.3 | MIT | Justin Ridgewell <justin@ridgewell.name> |  |  | ./working/node-license-auditor-cli/node_modules/@jridgewell/gen-mapping/package.json | ./working/node-license-auditor-cli/node_modules/@jridgewell/gen-mapping/package.json |
 | :green_circle: | @jridgewell/resolve-uri | 3.1.1 | MIT | Justin Ridgewell <justin@ridgewell.name> |  |  | ./working/node-license-auditor-cli/node_modules/@jridgewell/resolve-uri/package.json | ./working/node-license-auditor-cli/node_modules/@jridgewell/resolve-uri/package.json |
 | :green_circle: | @jridgewell/set-array | 1.1.2 | MIT | Justin Ridgewell <justin@ridgewell.name> |  |  | ./working/node-license-auditor-cli/node_modules/@jridgewell/set-array/package.json | ./working/node-license-auditor-cli/node_modules/@jridgewell/set-array/package.json |
