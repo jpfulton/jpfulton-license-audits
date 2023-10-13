@@ -1,7 +1,7 @@
 # Package Dependencies Audit Report: @jpfulton/ng-resume-api-browser-sdk
 
-> Generated at Fri, 13 Oct 2023 17:37:34 GMT <br />
-> Generated using version 1.0.5 of node-license-auditor-cli. <br />
+> Generated at Fri, 13 Oct 2023 19:57:11 GMT <br />
+> Generated using version 1.0.6 of node-license-auditor-cli. <br />
 > Configuration source used: file <br />
 > Configuration source URL: .license-checker.json
 
